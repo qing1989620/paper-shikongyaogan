@@ -1,0 +1,54 @@
+{
+  "protocol_id": "screening_2026_v1",
+  "frozen_at_cst": "2026-11-19T00:42:54.947824+08:00",
+  "scope": "development_screening_not_external_SOTA_or_confirmatory_test",
+  "methods": [
+    "base",
+    "i01_sensor",
+    "i02_bridge",
+    "i03_frequency",
+    "i07_covariance",
+    "i05_spectral",
+    "i04_graph",
+    "i09_time",
+    "i08_experts",
+    "i06_registration",
+    "i10_unmixing",
+    "i11_transport",
+    "i12_recurrent",
+    "i13_disentangle",
+    "i14_masked_ema"
+  ],
+  "epochs": 6,
+  "seed": 42,
+  "learning_rate": 5e-05,
+  "micro_batch": 1,
+  "gradient_accumulation": 2,
+  "shared_warmstart": "work/runs/base/best.pth",
+  "train_patches": 1200,
+  "val_patches": 120,
+  "validation_noise_repeats": 3,
+  "primary": "mean_reflectance_patch_RMSE",
+  "sampling_steps": 1,
+  "eta": 0,
+  "selection": "validation_only_all_14_candidates_reported",
+  "test_access": "disabled_in_screening",
+  "promotion_min_rmse_pct": 1.0,
+  "promotion_max_candidates": 3,
+  "full_budget_followup": {
+    "epochs": 40,
+    "train_seeds": [
+      42,
+      123,
+      2026
+    ],
+    "initialization": "from_scratch_with_paired_core_weights",
+    "external_baselines": [
+      "SA-STF",
+      "STFDiff_eta0",
+      "SwinSTFM_or_verified_traditional"
+    ]
+  },
+  "manifest_sha256": "2738a2a3ec26388d1bb2887db86d41e3b24ce7b3fecb89578938428a79a60e49",
+  "note": "Warm-start screening rejects no method conclusively; no module combination until independent contributions checked"
+}

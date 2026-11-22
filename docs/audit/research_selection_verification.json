@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests": [
+    "strong_epoch0_control",
+    "secondary_metric_harm",
+    "genuine_gain",
+    "diagnostic_is_not_promotion",
+    "three_seed_paired_control",
+    "one_seed_regression_not_promoted",
+    "incomplete_seeds_rejected"
+  ]
+}

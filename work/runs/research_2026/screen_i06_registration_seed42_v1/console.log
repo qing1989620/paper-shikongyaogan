@@ -1,0 +1,83 @@
+START i06_registration seed=42 train=1200 val=120 params=7496362 warmstart=True
+INITIAL val=0.0232934
+C:\Users\qing\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\autograd\graph.py:825: UserWarning: grid_sampler_2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\Context.cpp:95.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  epoch=1 batch=100/1200 loss=0.020441
+  epoch=1 batch=200/1200 loss=0.020252
+  epoch=1 batch=300/1200 loss=0.020057
+  epoch=1 batch=400/1200 loss=0.020009
+  epoch=1 batch=500/1200 loss=0.019983
+  epoch=1 batch=600/1200 loss=0.019872
+  epoch=1 batch=700/1200 loss=0.019849
+  epoch=1 batch=800/1200 loss=0.019742
+  epoch=1 batch=900/1200 loss=0.019623
+  epoch=1 batch=1000/1200 loss=0.019596
+  epoch=1 batch=1100/1200 loss=0.019520
+  epoch=1 batch=1200/1200 loss=0.019486
+EPOCH 1/6 loss=0.019486 val=0.0253887 best=0.0253887 seconds=225.2
+  epoch=2 batch=100/1200 loss=0.019267
+  epoch=2 batch=200/1200 loss=0.019172
+  epoch=2 batch=300/1200 loss=0.018953
+  epoch=2 batch=400/1200 loss=0.018851
+  epoch=2 batch=500/1200 loss=0.018917
+  epoch=2 batch=600/1200 loss=0.019138
+  epoch=2 batch=700/1200 loss=0.019121
+  epoch=2 batch=800/1200 loss=0.019130
+  epoch=2 batch=900/1200 loss=0.019067
+  epoch=2 batch=1000/1200 loss=0.019040
+  epoch=2 batch=1100/1200 loss=0.019017
+  epoch=2 batch=1200/1200 loss=0.018995
+EPOCH 2/6 loss=0.018995 val=0.0258513 best=0.0253887 seconds=227.5
+  epoch=3 batch=100/1200 loss=0.018773
+  epoch=3 batch=200/1200 loss=0.019084
+  epoch=3 batch=300/1200 loss=0.018938
+  epoch=3 batch=400/1200 loss=0.018861
+  epoch=3 batch=500/1200 loss=0.018849
+  epoch=3 batch=600/1200 loss=0.018781
+  epoch=3 batch=700/1200 loss=0.018905
+  epoch=3 batch=800/1200 loss=0.018902
+  epoch=3 batch=900/1200 loss=0.018979
+  epoch=3 batch=1000/1200 loss=0.018896
+  epoch=3 batch=1100/1200 loss=0.018917
+  epoch=3 batch=1200/1200 loss=0.018894
+EPOCH 3/6 loss=0.018894 val=0.0238844 best=0.0238844 seconds=227.7
+  epoch=4 batch=100/1200 loss=0.018973
+  epoch=4 batch=200/1200 loss=0.018646
+  epoch=4 batch=300/1200 loss=0.018703
+  epoch=4 batch=400/1200 loss=0.018661
+  epoch=4 batch=500/1200 loss=0.018727
+  epoch=4 batch=600/1200 loss=0.018626
+  epoch=4 batch=700/1200 loss=0.018554
+  epoch=4 batch=800/1200 loss=0.018624
+  epoch=4 batch=900/1200 loss=0.018670
+  epoch=4 batch=1000/1200 loss=0.018658
+  epoch=4 batch=1100/1200 loss=0.018633
+  epoch=4 batch=1200/1200 loss=0.018603
+EPOCH 4/6 loss=0.018603 val=0.0236572 best=0.0236572 seconds=227.8
+  epoch=5 batch=100/1200 loss=0.018291
+  epoch=5 batch=200/1200 loss=0.018236
+  epoch=5 batch=300/1200 loss=0.018244
+  epoch=5 batch=400/1200 loss=0.018178
+  epoch=5 batch=500/1200 loss=0.018311
+  epoch=5 batch=600/1200 loss=0.018435
+  epoch=5 batch=700/1200 loss=0.018470
+  epoch=5 batch=800/1200 loss=0.018384
+  epoch=5 batch=900/1200 loss=0.018340
+  epoch=5 batch=1000/1200 loss=0.018353
+  epoch=5 batch=1100/1200 loss=0.018356
+  epoch=5 batch=1200/1200 loss=0.018349
+EPOCH 5/6 loss=0.018349 val=0.0240287 best=0.0236572 seconds=227.9
+  epoch=6 batch=100/1200 loss=0.018179
+  epoch=6 batch=200/1200 loss=0.018119
+  epoch=6 batch=300/1200 loss=0.018006
+  epoch=6 batch=400/1200 loss=0.018051
+  epoch=6 batch=500/1200 loss=0.018090
+  epoch=6 batch=600/1200 loss=0.018101
+  epoch=6 batch=700/1200 loss=0.018144
+  epoch=6 batch=800/1200 loss=0.018131
+  epoch=6 batch=900/1200 loss=0.018104
+  epoch=6 batch=1000/1200 loss=0.018143
+  epoch=6 batch=1100/1200 loss=0.018152
+  epoch=6 batch=1200/1200 loss=0.018144
+EPOCH 6/6 loss=0.018144 val=0.0240452 best=0.0236572 seconds=228.0
+COMPLETE {"mean_patch_rmse": 0.02365719301936527, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.023656645630578694, 0.02364338251766073, 0.023671549803600794], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-19T04:58:54.047402+08:00", "mae": 0.016369957280741136, "mae_undefined": 0, "psnr_db": 32.76870989238105, "psnr_db_undefined": 0, "ssim": 0.9409738985341761, "ssim_undefined": 0, "sam_rad": 0.08463406926455633, "sam_rad_undefined": 0, "sam_deg": 4.849174971876957, "sam_deg_undefined": 0, "ergas": 1.025099378482082, "ergas_undefined": 0, "cc": 0.847680638625831, "cc_undefined": 0, "mechanism_diagnostics": {"diagnostic_flow_abs_px": 0.24281193601588408}, "method": "i06_registration", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "ec2cc166ff34c7a5f6d7b4dfd225fa0dfdb5d02bad60e1695ac6346381c2932a", "peak_cuda_MiB": 1208.6328125}

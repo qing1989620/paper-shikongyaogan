@@ -1,0 +1,31 @@
+{
+  "state": "paused",
+  "pid": 18076,
+  "scheduled_for_cst": "2026-11-22T21:15:47.336747+08:00",
+  "set_cst": "2026-11-22T21:15:47+08:00",
+  "mode": "after_run",
+  "target_run_id": "replicate_i05_spectral_seed42_v1",
+  "run_id": "replicate_i05_spectral_seed42_v1",
+  "recovered_stop_error": "RuntimeError('Project process query failed')",
+  "stop_verified_cst": "2026-11-22T22:20:32+08:00",
+  "paused_cst": "2026-11-22T22:20:32+08:00",
+  "boundary": {
+    "epoch": 40,
+    "total_epochs": 40,
+    "checkpoint": "work\\runs\\research_2026\\replicate_i05_spectral_seed42_v1\\resume.pth",
+    "checkpoint_cst": "2026-11-22T22:16:36+08:00",
+    "last_val_rmse": 0.02641210193849272
+  },
+  "reason": "completed_requested_run",
+  "replication_completed": 8,
+  "completed_runs": [
+    "replicate_base_seed42_v1",
+    "replicate_i01_sensor_seed42_v1",
+    "replicate_i02_bridge_seed42_v1",
+    "replicate_i03_frequency_seed42_v1",
+    "replicate_i05_spectral_seed42_v1",
+    "replicate_i06_registration_seed42_v1",
+    "replicate_i07_covariance_seed42_v1",
+    "replicate_i13_disentangle_seed42_v1"
+  ]
+}

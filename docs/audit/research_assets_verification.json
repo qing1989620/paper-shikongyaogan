@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-11-18T17:55:51.739063+00:00",
+  "syntax_programs": 14,
+  "scientific_run_config_and_source_hashes_unchanged": [
+    "screen_base_seed42_v1",
+    "screen_i01_sensor_seed42_v1",
+    "screen_i02_bridge_seed42_v1"
+  ],
+  "historical_smoke_snapshots": [
+    {
+      "run": "smoke_ema_seed42_v1",
+      "current_source_differs": [
+        "work\\tools\\train_research_2026.py",
+        "work\\tools\\research_methods_2026.py"
+      ],
+      "original_source_snapshot_intact": true
+    }
+  ],
+  "frozen_manifest_counts": {
+    "lgc": 1440,
+    "cia": 588
+  },
+  "broken_current_markdown_links": [],
+  "full_replication_scope": "base_and_all_14_prototypes_no_screening_elimination"
+}

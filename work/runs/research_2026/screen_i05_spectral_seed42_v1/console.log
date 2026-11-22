@@ -1,0 +1,81 @@
+START i05_spectral seed=42 train=1200 val=120 params=7492907 warmstart=True
+INITIAL val=0.0248862
+  epoch=1 batch=100/1200 loss=0.018683
+  epoch=1 batch=200/1200 loss=0.018566
+  epoch=1 batch=300/1200 loss=0.018384
+  epoch=1 batch=400/1200 loss=0.018321
+  epoch=1 batch=500/1200 loss=0.018310
+  epoch=1 batch=600/1200 loss=0.018199
+  epoch=1 batch=700/1200 loss=0.018176
+  epoch=1 batch=800/1200 loss=0.018072
+  epoch=1 batch=900/1200 loss=0.017948
+  epoch=1 batch=1000/1200 loss=0.017922
+  epoch=1 batch=1100/1200 loss=0.017847
+  epoch=1 batch=1200/1200 loss=0.017808
+EPOCH 1/6 loss=0.017808 val=0.0255126 best=0.0255126 seconds=218.6
+  epoch=2 batch=100/1200 loss=0.017577
+  epoch=2 batch=200/1200 loss=0.017476
+  epoch=2 batch=300/1200 loss=0.017245
+  epoch=2 batch=400/1200 loss=0.017148
+  epoch=2 batch=500/1200 loss=0.017218
+  epoch=2 batch=600/1200 loss=0.017434
+  epoch=2 batch=700/1200 loss=0.017425
+  epoch=2 batch=800/1200 loss=0.017435
+  epoch=2 batch=900/1200 loss=0.017374
+  epoch=2 batch=1000/1200 loss=0.017346
+  epoch=2 batch=1100/1200 loss=0.017325
+  epoch=2 batch=1200/1200 loss=0.017306
+EPOCH 2/6 loss=0.017306 val=0.0259504 best=0.0255126 seconds=220.4
+  epoch=3 batch=100/1200 loss=0.017056
+  epoch=3 batch=200/1200 loss=0.017392
+  epoch=3 batch=300/1200 loss=0.017236
+  epoch=3 batch=400/1200 loss=0.017164
+  epoch=3 batch=500/1200 loss=0.017165
+  epoch=3 batch=600/1200 loss=0.017103
+  epoch=3 batch=700/1200 loss=0.017218
+  epoch=3 batch=800/1200 loss=0.017215
+  epoch=3 batch=900/1200 loss=0.017291
+  epoch=3 batch=1000/1200 loss=0.017208
+  epoch=3 batch=1100/1200 loss=0.017233
+  epoch=3 batch=1200/1200 loss=0.017208
+EPOCH 3/6 loss=0.017208 val=0.0239853 best=0.0239853 seconds=220.9
+  epoch=4 batch=100/1200 loss=0.017290
+  epoch=4 batch=200/1200 loss=0.016980
+  epoch=4 batch=300/1200 loss=0.017016
+  epoch=4 batch=400/1200 loss=0.016976
+  epoch=4 batch=500/1200 loss=0.017044
+  epoch=4 batch=600/1200 loss=0.016947
+  epoch=4 batch=700/1200 loss=0.016874
+  epoch=4 batch=800/1200 loss=0.016940
+  epoch=4 batch=900/1200 loss=0.016987
+  epoch=4 batch=1000/1200 loss=0.016969
+  epoch=4 batch=1100/1200 loss=0.016944
+  epoch=4 batch=1200/1200 loss=0.016915
+EPOCH 4/6 loss=0.016915 val=0.0237838 best=0.0237838 seconds=221.2
+  epoch=5 batch=100/1200 loss=0.016603
+  epoch=5 batch=200/1200 loss=0.016555
+  epoch=5 batch=300/1200 loss=0.016562
+  epoch=5 batch=400/1200 loss=0.016509
+  epoch=5 batch=500/1200 loss=0.016633
+  epoch=5 batch=600/1200 loss=0.016756
+  epoch=5 batch=700/1200 loss=0.016786
+  epoch=5 batch=800/1200 loss=0.016697
+  epoch=5 batch=900/1200 loss=0.016654
+  epoch=5 batch=1000/1200 loss=0.016666
+  epoch=5 batch=1100/1200 loss=0.016669
+  epoch=5 batch=1200/1200 loss=0.016662
+EPOCH 5/6 loss=0.016662 val=0.0241577 best=0.0237838 seconds=221.5
+  epoch=6 batch=100/1200 loss=0.016519
+  epoch=6 batch=200/1200 loss=0.016441
+  epoch=6 batch=300/1200 loss=0.016328
+  epoch=6 batch=400/1200 loss=0.016360
+  epoch=6 batch=500/1200 loss=0.016406
+  epoch=6 batch=600/1200 loss=0.016414
+  epoch=6 batch=700/1200 loss=0.016457
+  epoch=6 batch=800/1200 loss=0.016439
+  epoch=6 batch=900/1200 loss=0.016416
+  epoch=6 batch=1000/1200 loss=0.016454
+  epoch=6 batch=1100/1200 loss=0.016462
+  epoch=6 batch=1200/1200 loss=0.016455
+EPOCH 6/6 loss=0.016455 val=0.0241539 best=0.0237838 seconds=221.7
+COMPLETE {"mean_patch_rmse": 0.023783800489683118, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.023783274467887625, 0.023769386068652962, 0.023798739913856653], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-19T03:13:26.327075+08:00", "mae": 0.01645417165503961, "mae_undefined": 0, "psnr_db": 32.724503593939524, "psnr_db_undefined": 0, "ssim": 0.9408428070282346, "ssim_undefined": 0, "sam_rad": 0.08512866216827412, "sam_rad_undefined": 0, "sam_deg": 4.877513057837106, "sam_deg_undefined": 0, "ergas": 1.0277257329212135, "ergas_undefined": 0, "cc": 0.846534811958807, "cc_undefined": 0, "mechanism_diagnostics": {"diagnostic_spectral_mix_gain": 0.11902929842472076}, "method": "i05_spectral", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "7e52378fb5afe66b45636aa4dc309c8ad6c98917bf71adfa8eadfaeff27cf993", "peak_cuda_MiB": 1168.0859375}

@@ -1,0 +1,20 @@
+{
+  "protocol_id": "research_2026_exploratory_replication_v1",
+  "minimum_gain_pct": 1.0,
+  "maximum_candidates": 2,
+  "quality_metric_relative_harm_limit_pct": 1.0,
+  "reference": "stronger_of_shared_initial_and_finetuned_base",
+  "run_diagnostic_if_no_promotion": true,
+  "diagnostic_candidate_count": 2,
+  "epochs": 40,
+  "seeds": [42, 123, 2026],
+  "learning_rate": 0.0002,
+  "warmstart": null,
+  "evaluate_common_flood_after_replication": true,
+  "external_protocol": "common_flood_patch_v1_author_reported_date_disjoint_different_training_recipes",
+  "data": "same_frozen_LGC_development_manifest",
+  "test_access": "disabled",
+  "external_SOTA_claim": "forbidden_until_common_protocol_external_evaluation",
+  "paper_result_claim": "requires_novelty_and_ablations_and_external_data_gates",
+  "resource_policy": "serial_GPU_minimum_8_GiB_disk_before_new_job"
+}

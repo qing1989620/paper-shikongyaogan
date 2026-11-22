@@ -1,0 +1,600 @@
+[
+  {
+    "dataset": "LGC",
+    "split": "test",
+    "group": "test",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-12-28",
+      "f1": "2005-01-13",
+      "f3": "2005-01-29",
+      "c0": "2004-12-28",
+      "c1": "2005-01-13",
+      "c3": "2005-01-29"
+    },
+    "checked_patches": [
+      "test_r0000_c0000.npz",
+      "test_r1280_c0000.npz",
+      "test_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train0",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-04-16",
+      "f1": "2004-05-02",
+      "f3": "2004-07-05",
+      "c0": "2004-04-16",
+      "c1": "2004-05-02",
+      "c3": "2004-07-05"
+    },
+    "checked_patches": [
+      "train0_r0000_c0000.npz",
+      "train0_r1280_c0000.npz",
+      "train0_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train1",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-05-02",
+      "f1": "2004-07-05",
+      "f3": "2004-08-22",
+      "c0": "2004-05-02",
+      "c1": "2004-07-05",
+      "c3": "2004-08-22"
+    },
+    "checked_patches": [
+      "train1_r0000_c0000.npz",
+      "train1_r1280_c0000.npz",
+      "train1_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train2",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-07-05",
+      "f1": "2004-08-06",
+      "f3": "2004-08-22",
+      "c0": "2004-07-05",
+      "c1": "2004-08-06",
+      "c3": "2004-08-22"
+    },
+    "checked_patches": [
+      "train2_r0000_c0000.npz",
+      "train2_r1280_c0000.npz",
+      "train2_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train3",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-08-22",
+      "f1": "2004-10-25",
+      "f3": "2004-11-26",
+      "c0": "2004-08-22",
+      "c1": "2004-10-25",
+      "c3": "2004-11-26"
+    },
+    "checked_patches": [
+      "train3_r0000_c0000.npz",
+      "train3_r1280_c0000.npz",
+      "train3_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train4",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-10-25",
+      "f1": "2004-11-26",
+      "f3": "2004-12-12",
+      "c0": "2004-10-25",
+      "c1": "2004-11-26",
+      "c3": "2004-12-12"
+    },
+    "checked_patches": [
+      "train4_r0000_c0000.npz",
+      "train4_r1280_c0000.npz",
+      "train4_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train5",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-05-02",
+      "f1": "2004-07-05",
+      "f3": "2004-08-06",
+      "c0": "2004-05-02",
+      "c1": "2004-07-05",
+      "c3": "2004-08-06"
+    },
+    "checked_patches": [
+      "train5_r0000_c0000.npz",
+      "train5_r1280_c0000.npz",
+      "train5_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train6",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-07-05",
+      "f1": "2004-08-22",
+      "f3": "2004-10-25",
+      "c0": "2004-07-05",
+      "c1": "2004-08-22",
+      "c3": "2004-10-25"
+    },
+    "checked_patches": [
+      "train6_r0000_c0000.npz",
+      "train6_r1280_c0000.npz",
+      "train6_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train7",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-08-06",
+      "f1": "2004-08-22",
+      "f3": "2004-10-25",
+      "c0": "2004-08-06",
+      "c1": "2004-08-22",
+      "c3": "2004-10-25"
+    },
+    "checked_patches": [
+      "train7_r0000_c0000.npz",
+      "train7_r1280_c0000.npz",
+      "train7_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train8",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-08-06",
+      "f1": "2004-10-25",
+      "f3": "2004-11-26",
+      "c0": "2004-08-06",
+      "c1": "2004-10-25",
+      "c3": "2004-11-26"
+    },
+    "checked_patches": [
+      "train8_r0000_c0000.npz",
+      "train8_r1280_c0000.npz",
+      "train8_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "train",
+    "group": "train9",
+    "patches": 120,
+    "dates": {
+      "f0": "2004-08-22",
+      "f1": "2004-11-26",
+      "f3": "2004-12-12",
+      "c0": "2004-08-22",
+      "c1": "2004-11-26",
+      "c3": "2004-12-12"
+    },
+    "checked_patches": [
+      "train9_r0000_c0000.npz",
+      "train9_r1280_c0000.npz",
+      "train9_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "LGC",
+    "split": "val",
+    "group": "val",
+    "patches": 120,
+    "dates": {
+      "f0": "2005-02-14",
+      "f1": "2005-03-02",
+      "f3": "2005-04-03",
+      "c0": "2005-02-14",
+      "c1": "2005-03-02",
+      "c3": "2005-04-03"
+    },
+    "checked_patches": [
+      "val_r0000_c0000.npz",
+      "val_r1280_c0000.npz",
+      "val_r2304_c2816.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "test",
+    "group": "test0",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-03-17",
+      "f1": "2002-04-02",
+      "f3": "2002-04-11",
+      "c0": "2002-03-17",
+      "c1": "2002-04-02",
+      "c3": "2002-04-11"
+    },
+    "checked_patches": [
+      "test0_r0000_c0000.npz",
+      "test0_r0768_c0768.npz",
+      "test0_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "test",
+    "group": "test1",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-04-02",
+      "f1": "2002-04-11",
+      "f3": "2002-04-18",
+      "c0": "2002-04-02",
+      "c1": "2002-04-11",
+      "c3": "2002-04-18"
+    },
+    "checked_patches": [
+      "test1_r0000_c0000.npz",
+      "test1_r0768_c0768.npz",
+      "test1_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "test",
+    "group": "test2",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-04-11",
+      "f1": "2002-04-18",
+      "f3": "2002-04-27",
+      "c0": "2002-04-11",
+      "c1": "2002-04-18",
+      "c3": "2002-04-27"
+    },
+    "checked_patches": [
+      "test2_r0000_c0000.npz",
+      "test2_r0768_c0768.npz",
+      "test2_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "test",
+    "group": "test3",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-04-18",
+      "f1": "2002-04-27",
+      "f3": "2002-05-04",
+      "c0": "2002-04-18",
+      "c1": "2002-04-27",
+      "c3": "2002-05-04"
+    },
+    "checked_patches": [
+      "test3_r0000_c0000.npz",
+      "test3_r0768_c0768.npz",
+      "test3_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train0",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-10-08",
+      "f1": "2001-10-17",
+      "f3": "2001-11-02",
+      "c0": "2001-10-08",
+      "c1": "2001-10-17",
+      "c3": "2001-11-02"
+    },
+    "checked_patches": [
+      "train0_r0000_c0000.npz",
+      "train0_r0768_c0768.npz",
+      "train0_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train1",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-10-17",
+      "f1": "2001-11-02",
+      "f3": "2001-11-09",
+      "c0": "2001-10-17",
+      "c1": "2001-11-02",
+      "c3": "2001-11-09"
+    },
+    "checked_patches": [
+      "train1_r0000_c0000.npz",
+      "train1_r0768_c0768.npz",
+      "train1_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train2",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-11-02",
+      "f1": "2001-11-09",
+      "f3": "2001-11-25",
+      "c0": "2001-11-02",
+      "c1": "2001-11-09",
+      "c3": "2001-11-25"
+    },
+    "checked_patches": [
+      "train2_r0000_c0000.npz",
+      "train2_r0768_c0768.npz",
+      "train2_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train3",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-11-09",
+      "f1": "2001-11-25",
+      "f3": "2001-12-04",
+      "c0": "2001-11-09",
+      "c1": "2001-11-25",
+      "c3": "2001-12-04"
+    },
+    "checked_patches": [
+      "train3_r0000_c0000.npz",
+      "train3_r0768_c0768.npz",
+      "train3_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train4",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-11-25",
+      "f1": "2001-12-04",
+      "f3": "2002-01-05",
+      "c0": "2001-11-25",
+      "c1": "2001-12-04",
+      "c3": "2002-01-05"
+    },
+    "checked_patches": [
+      "train4_r0000_c0000.npz",
+      "train4_r0768_c0768.npz",
+      "train4_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train5",
+    "patches": 42,
+    "dates": {
+      "f0": "2001-12-04",
+      "f1": "2002-01-05",
+      "f3": "2002-01-12",
+      "c0": "2001-12-04",
+      "c1": "2002-01-05",
+      "c3": "2002-01-12"
+    },
+    "checked_patches": [
+      "train5_r0000_c0000.npz",
+      "train5_r0768_c0768.npz",
+      "train5_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "train",
+    "group": "train6",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-01-05",
+      "f1": "2002-01-12",
+      "f3": "2002-02-13",
+      "c0": "2002-01-05",
+      "c1": "2002-01-12",
+      "c3": "2002-02-13"
+    },
+    "checked_patches": [
+      "train6_r0000_c0000.npz",
+      "train6_r0768_c0768.npz",
+      "train6_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "val",
+    "group": "val0",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-02-13",
+      "f1": "2002-02-22",
+      "f3": "2002-03-10",
+      "c0": "2002-02-13",
+      "c1": "2002-02-22",
+      "c3": "2002-03-10"
+    },
+    "checked_patches": [
+      "val0_r0000_c0000.npz",
+      "val0_r0768_c0768.npz",
+      "val0_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "val",
+    "group": "val1",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-02-22",
+      "f1": "2002-03-10",
+      "f3": "2002-03-17",
+      "c0": "2002-02-22",
+      "c1": "2002-03-10",
+      "c3": "2002-03-17"
+    },
+    "checked_patches": [
+      "val1_r0000_c0000.npz",
+      "val1_r0768_c0768.npz",
+      "val1_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  },
+  {
+    "dataset": "CIA",
+    "split": "val",
+    "group": "val2",
+    "patches": 42,
+    "dates": {
+      "f0": "2002-03-10",
+      "f1": "2002-03-17",
+      "f3": "2002-04-02",
+      "c0": "2002-03-10",
+      "c1": "2002-03-17",
+      "c3": "2002-04-02"
+    },
+    "checked_patches": [
+      "val2_r0000_c0000.npz",
+      "val2_r0768_c0768.npz",
+      "val2_r1536_c1280.npz"
+    ],
+    "date_provenance": "raw tile hash match",
+    "raw_match": true,
+    "patch_array_checks_passed": true,
+    "problems": []
+  }
+]

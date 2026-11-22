@@ -1,0 +1,83 @@
+START i11_transport seed=42 train=1200 val=120 params=7490022 warmstart=True
+INITIAL val=0.0237072
+C:\Users\qing\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\autograd\graph.py:825: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\Context.cpp:95.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  epoch=1 batch=100/1200 loss=0.018862
+  epoch=1 batch=200/1200 loss=0.018609
+  epoch=1 batch=300/1200 loss=0.018401
+  epoch=1 batch=400/1200 loss=0.018334
+  epoch=1 batch=500/1200 loss=0.018313
+  epoch=1 batch=600/1200 loss=0.018202
+  epoch=1 batch=700/1200 loss=0.018179
+  epoch=1 batch=800/1200 loss=0.018072
+  epoch=1 batch=900/1200 loss=0.017949
+  epoch=1 batch=1000/1200 loss=0.017922
+  epoch=1 batch=1100/1200 loss=0.017845
+  epoch=1 batch=1200/1200 loss=0.017806
+EPOCH 1/6 loss=0.017806 val=0.0254113 best=0.0254113 seconds=274.8
+  epoch=2 batch=100/1200 loss=0.017580
+  epoch=2 batch=200/1200 loss=0.017495
+  epoch=2 batch=300/1200 loss=0.017261
+  epoch=2 batch=400/1200 loss=0.017158
+  epoch=2 batch=500/1200 loss=0.017225
+  epoch=2 batch=600/1200 loss=0.017445
+  epoch=2 batch=700/1200 loss=0.017429
+  epoch=2 batch=800/1200 loss=0.017440
+  epoch=2 batch=900/1200 loss=0.017380
+  epoch=2 batch=1000/1200 loss=0.017352
+  epoch=2 batch=1100/1200 loss=0.017330
+  epoch=2 batch=1200/1200 loss=0.017311
+EPOCH 2/6 loss=0.017311 val=0.0258577 best=0.0254113 seconds=259.1
+  epoch=3 batch=100/1200 loss=0.017057
+  epoch=3 batch=200/1200 loss=0.017392
+  epoch=3 batch=300/1200 loss=0.017242
+  epoch=3 batch=400/1200 loss=0.017167
+  epoch=3 batch=500/1200 loss=0.017165
+  epoch=3 batch=600/1200 loss=0.017103
+  epoch=3 batch=700/1200 loss=0.017217
+  epoch=3 batch=800/1200 loss=0.017215
+  epoch=3 batch=900/1200 loss=0.017291
+  epoch=3 batch=1000/1200 loss=0.017208
+  epoch=3 batch=1100/1200 loss=0.017234
+  epoch=3 batch=1200/1200 loss=0.017209
+EPOCH 3/6 loss=0.017209 val=0.0239117 best=0.0239117 seconds=258.6
+  epoch=4 batch=100/1200 loss=0.017293
+  epoch=4 batch=200/1200 loss=0.016980
+  epoch=4 batch=300/1200 loss=0.017020
+  epoch=4 batch=400/1200 loss=0.016982
+  epoch=4 batch=500/1200 loss=0.017048
+  epoch=4 batch=600/1200 loss=0.016951
+  epoch=4 batch=700/1200 loss=0.016877
+  epoch=4 batch=800/1200 loss=0.016943
+  epoch=4 batch=900/1200 loss=0.016990
+  epoch=4 batch=1000/1200 loss=0.016974
+  epoch=4 batch=1100/1200 loss=0.016948
+  epoch=4 batch=1200/1200 loss=0.016919
+EPOCH 4/6 loss=0.016919 val=0.0236677 best=0.0236677 seconds=259.4
+  epoch=5 batch=100/1200 loss=0.016606
+  epoch=5 batch=200/1200 loss=0.016560
+  epoch=5 batch=300/1200 loss=0.016566
+  epoch=5 batch=400/1200 loss=0.016513
+  epoch=5 batch=500/1200 loss=0.016637
+  epoch=5 batch=600/1200 loss=0.016760
+  epoch=5 batch=700/1200 loss=0.016789
+  epoch=5 batch=800/1200 loss=0.016699
+  epoch=5 batch=900/1200 loss=0.016657
+  epoch=5 batch=1000/1200 loss=0.016670
+  epoch=5 batch=1100/1200 loss=0.016672
+  epoch=5 batch=1200/1200 loss=0.016665
+EPOCH 5/6 loss=0.016665 val=0.0240498 best=0.0236677 seconds=259.8
+  epoch=6 batch=100/1200 loss=0.016519
+  epoch=6 batch=200/1200 loss=0.016447
+  epoch=6 batch=300/1200 loss=0.016335
+  epoch=6 batch=400/1200 loss=0.016367
+  epoch=6 batch=500/1200 loss=0.016412
+  epoch=6 batch=600/1200 loss=0.016420
+  epoch=6 batch=700/1200 loss=0.016462
+  epoch=6 batch=800/1200 loss=0.016444
+  epoch=6 batch=900/1200 loss=0.016421
+  epoch=6 batch=1000/1200 loss=0.016459
+  epoch=6 batch=1100/1200 loss=0.016466
+  epoch=6 batch=1200/1200 loss=0.016459
+EPOCH 6/6 loss=0.016459 val=0.0240757 best=0.0236677 seconds=259.9
+COMPLETE {"mean_patch_rmse": 0.023667651795161268, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.023666989462787297, 0.023653994313846443, 0.023681970455958493], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-21T23:15:29.083439+08:00", "mae": 0.016376198285459612, "mae_undefined": 0, "psnr_db": 32.76424559125982, "psnr_db_undefined": 0, "ssim": 0.940924460740107, "ssim_undefined": 0, "sam_rad": 0.08478501560936653, "sam_rad_undefined": 0, "sam_deg": 4.857823560367508, "sam_deg_undefined": 0, "ergas": 1.02570775640633, "ergas_undefined": 0, "cc": 0.8473293930041987, "cc_undefined": 0, "mechanism_diagnostics": {"diagnostic_transport_row_error": 4.763289471156895e-05}, "method": "i11_transport", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "6929e6d51c72c31ed40c8d3ecb88d00e8ce80faa7fa2205e6316e1d6d51a4156", "peak_cuda_MiB": 1205.43896484375}

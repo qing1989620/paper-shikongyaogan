@@ -1,0 +1,40 @@
+{
+  "mean_patch_rmse": 0.023660675275863872,
+  "n_predictions": 360,
+  "n_patches": 120,
+  "noise_repeat_rmse": [
+    0.02366017336677996,
+    0.02364680843058905,
+    0.02367504302858128
+  ],
+  "metric_version": "reflectance_v1",
+  "exposure": "legacy_exposed_development_only",
+  "sampler": {
+    "steps": 1,
+    "eta": 0.0
+  },
+  "time_cst": "2026-11-19T04:33:54.348286+08:00",
+  "mae": 0.016371434011701377,
+  "mae_undefined": 0,
+  "psnr_db": 32.767381212619874,
+  "psnr_db_undefined": 0,
+  "ssim": 0.9409196856879242,
+  "ssim_undefined": 0,
+  "sam_rad": 0.08468469633362721,
+  "sam_rad_undefined": 0,
+  "sam_deg": 4.852075689263836,
+  "sam_deg_undefined": 0,
+  "ergas": 1.0252900318957443,
+  "ergas_undefined": 0,
+  "cc": 0.8476122813602223,
+  "cc_undefined": 0,
+  "mechanism_diagnostics": {
+    "diagnostic_router_entropy": 1.0985911697149278,
+    "diagnostic_router_spatial_std": 0.0017409970459993929
+  },
+  "method": "i08_experts",
+  "seed": 42,
+  "best_epoch": 4,
+  "checkpoint_sha256": "0cb783e25981e695edadae6f66a65500c87d4730bf04e67ca19f2a23c1de3437",
+  "peak_cuda_MiB": 1354.171875
+}

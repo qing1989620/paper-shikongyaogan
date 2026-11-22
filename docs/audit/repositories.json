@@ -1,0 +1,20 @@
+[
+  {
+    "path": "work/repos/SA-STF",
+    "commit": "34b139741009da2a407b7fc3f84b901fad29242d",
+    "remote": "https://github.com/ZZZhangjinsong/SA-STF.git",
+    "status": ""
+  },
+  {
+    "path": "work/repos/STF",
+    "commit": "22a1c99c0bbd06e4ef931733dbcea9780b0ffd5b",
+    "remote": "https://github.com/prowDIY/STF.git",
+    "status": "?? src/model/stfdiff/model6/__pycache__/bi_diffusion.cpython-312.pyc\n?? src/model/stfdiff/model6/__pycache__/bi_pred_resnet.cpython-312.pyc\n?? src/model/stfdiff/model6/__pycache__/bi_pred_resnet_v2.cpython-312.pyc\n?? src/model/stfdiff/model6/_helpers.py\n?? src/model/stfdiff/model6/bi_pred_resnet_v2.py"
+  },
+  {
+    "path": "work/repos/STFMamba",
+    "commit": "780e3df35c87f377d7c359eb784aca8a8490123f",
+    "remote": "https://github.com/zhaomin0101/STFMamba.git",
+    "status": ""
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "captured_cst": "2026-11-23T00:27:24.6897908+08:00",
+  "seed": 42,
+  "completed": 8,
+  "total": 15,
+  "last_saved_epoch": 9,
+  "total_epochs": 40,
+  "active_run_at_capture": "replicate_i04_graph_seed42_v1",
+  "active_saved_val_rmse": 0.026172410963206657,
+  "active_best_rmse_through_snapshot": 0.026172410963206657,
+  "completed_run_ids": [
+    "replicate_base_seed42_v1",
+    "replicate_i01_sensor_seed42_v1",
+    "replicate_i02_bridge_seed42_v1",
+    "replicate_i03_frequency_seed42_v1",
+    "replicate_i05_spectral_seed42_v1",
+    "replicate_i06_registration_seed42_v1",
+    "replicate_i07_covariance_seed42_v1",
+    "replicate_i13_disentangle_seed42_v1"
+  ],
+  "artifact": {
+    "tag": "backup-20261123-seed42",
+    "file": "seed42-checkpoints-20261123.zip",
+    "size": 360350612,
+    "sha256": "666deded546bc88c035ecc35a69e84b6ce78e019834e2a03b0b56f287ad8a941",
+    "members": [
+      {
+        "path": "work/runs/research_2026/replicate_base_seed42_v1/best.pth",
+        "sha256": "27f34bc6103417a0d3ef19911dbb1d1116b67ebc3b50f288539ca2c7e05c7e8a",
+        "size": 30012606,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i01_sensor_seed42_v1/best.pth",
+        "sha256": "f8f63cfd52ea47c3c08e9be67b3440232d17921025f2e612fa6458b5586ac4ae",
+        "size": 30014328,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i02_bridge_seed42_v1/best.pth",
+        "sha256": "0e22f6a56ddeb825648f0911a6e3727338e25215e01cb2584dd6aa490f6e833f",
+        "size": 30051570,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i03_frequency_seed42_v1/best.pth",
+        "sha256": "3d848e87f356896f6bf9fa2876ef0f00d38948118e3cf17ecc465fe495261e21",
+        "size": 30097180,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i05_spectral_seed42_v1/best.pth",
+        "sha256": "9300ba7f3591788560f921a81b262acb8325ebe506cca437f3e2b22cd0230edb",
+        "size": 30030068,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i06_registration_seed42_v1/best.pth",
+        "sha256": "594822a26b04323e10ef892398e0468bbc5a94d51419cad018616eb9cf8f56f8",
+        "size": 30044274,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i07_covariance_seed42_v1/best.pth",
+        "sha256": "d4603f78f83a5ebfd3328c722920fbc9931097b1144172faaff9c412614c156b",
+        "size": 30012606,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i13_disentangle_seed42_v1/best.pth",
+        "sha256": "8dab57ecde18b661a1f549eeb42801a9f468d461738270f6795787ee3761a9a5",
+        "size": 30040294,
+        "kind": "best_completed"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i04_graph_seed42_v1/best.pth",
+        "sha256": "eb8f4078008aa6cdab4d61ad1295b60c5504443a19f8fda40cd9c8157824c338",
+        "size": 30014514,
+        "kind": "best_active"
+      },
+      {
+        "path": "work/runs/research_2026/replicate_i04_graph_seed42_v1/resume.pth",
+        "sha256": "91b53ad3d9d5b4dbddc8aaf91ed488a0cd86d6e6fe4a68cbe15ff40a7043b55a",
+        "size": 90031102,
+        "kind": "resume_active"
+      }
+    ]
+  }
+}

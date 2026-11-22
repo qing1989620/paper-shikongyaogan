@@ -1,0 +1,81 @@
+START i03_frequency seed=42 train=1200 val=120 params=7508681 warmstart=True
+INITIAL val=0.0236051
+  epoch=1 batch=100/1200 loss=0.018621
+  epoch=1 batch=200/1200 loss=0.018506
+  epoch=1 batch=300/1200 loss=0.018336
+  epoch=1 batch=400/1200 loss=0.018286
+  epoch=1 batch=500/1200 loss=0.018276
+  epoch=1 batch=600/1200 loss=0.018171
+  epoch=1 batch=700/1200 loss=0.018152
+  epoch=1 batch=800/1200 loss=0.018048
+  epoch=1 batch=900/1200 loss=0.017928
+  epoch=1 batch=1000/1200 loss=0.017904
+  epoch=1 batch=1100/1200 loss=0.017827
+  epoch=1 batch=1200/1200 loss=0.017790
+EPOCH 1/6 loss=0.017790 val=0.0254288 best=0.0254288 seconds=224.7
+  epoch=2 batch=100/1200 loss=0.017575
+  epoch=2 batch=200/1200 loss=0.017491
+  epoch=2 batch=300/1200 loss=0.017259
+  epoch=2 batch=400/1200 loss=0.017158
+  epoch=2 batch=500/1200 loss=0.017225
+  epoch=2 batch=600/1200 loss=0.017443
+  epoch=2 batch=700/1200 loss=0.017428
+  epoch=2 batch=800/1200 loss=0.017438
+  epoch=2 batch=900/1200 loss=0.017378
+  epoch=2 batch=1000/1200 loss=0.017350
+  epoch=2 batch=1100/1200 loss=0.017329
+  epoch=2 batch=1200/1200 loss=0.017309
+EPOCH 2/6 loss=0.017309 val=0.0258767 best=0.0254288 seconds=227.2
+  epoch=3 batch=100/1200 loss=0.017059
+  epoch=3 batch=200/1200 loss=0.017395
+  epoch=3 batch=300/1200 loss=0.017242
+  epoch=3 batch=400/1200 loss=0.017168
+  epoch=3 batch=500/1200 loss=0.017166
+  epoch=3 batch=600/1200 loss=0.017104
+  epoch=3 batch=700/1200 loss=0.017218
+  epoch=3 batch=800/1200 loss=0.017216
+  epoch=3 batch=900/1200 loss=0.017291
+  epoch=3 batch=1000/1200 loss=0.017208
+  epoch=3 batch=1100/1200 loss=0.017233
+  epoch=3 batch=1200/1200 loss=0.017209
+EPOCH 3/6 loss=0.017209 val=0.0239001 best=0.0239001 seconds=227.8
+  epoch=4 batch=100/1200 loss=0.017293
+  epoch=4 batch=200/1200 loss=0.016981
+  epoch=4 batch=300/1200 loss=0.017020
+  epoch=4 batch=400/1200 loss=0.016981
+  epoch=4 batch=500/1200 loss=0.017046
+  epoch=4 batch=600/1200 loss=0.016948
+  epoch=4 batch=700/1200 loss=0.016875
+  epoch=4 batch=800/1200 loss=0.016941
+  epoch=4 batch=900/1200 loss=0.016988
+  epoch=4 batch=1000/1200 loss=0.016971
+  epoch=4 batch=1100/1200 loss=0.016946
+  epoch=4 batch=1200/1200 loss=0.016917
+EPOCH 4/6 loss=0.016917 val=0.0236711 best=0.0236711 seconds=228.2
+  epoch=5 batch=100/1200 loss=0.016601
+  epoch=5 batch=200/1200 loss=0.016556
+  epoch=5 batch=300/1200 loss=0.016563
+  epoch=5 batch=400/1200 loss=0.016510
+  epoch=5 batch=500/1200 loss=0.016635
+  epoch=5 batch=600/1200 loss=0.016758
+  epoch=5 batch=700/1200 loss=0.016787
+  epoch=5 batch=800/1200 loss=0.016697
+  epoch=5 batch=900/1200 loss=0.016655
+  epoch=5 batch=1000/1200 loss=0.016668
+  epoch=5 batch=1100/1200 loss=0.016671
+  epoch=5 batch=1200/1200 loss=0.016663
+EPOCH 5/6 loss=0.016663 val=0.0240461 best=0.0236711 seconds=228.4
+  epoch=6 batch=100/1200 loss=0.016517
+  epoch=6 batch=200/1200 loss=0.016443
+  epoch=6 batch=300/1200 loss=0.016331
+  epoch=6 batch=400/1200 loss=0.016364
+  epoch=6 batch=500/1200 loss=0.016409
+  epoch=6 batch=600/1200 loss=0.016417
+  epoch=6 batch=700/1200 loss=0.016459
+  epoch=6 batch=800/1200 loss=0.016442
+  epoch=6 batch=900/1200 loss=0.016418
+  epoch=6 batch=1000/1200 loss=0.016457
+  epoch=6 batch=1100/1200 loss=0.016464
+  epoch=6 batch=1200/1200 loss=0.016457
+EPOCH 6/6 loss=0.016457 val=0.0240629 best=0.0236711 seconds=228.2
+COMPLETE {"mean_patch_rmse": 0.023671091278083624, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.02367062862724217, 0.02365724154755528, 0.02368540248943251], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-19T02:24:54.070967+08:00", "mae": 0.016382690211708593, "mae_undefined": 0, "psnr_db": 32.76393552198947, "psnr_db_undefined": 0, "ssim": 0.9409240693090062, "ssim_undefined": 0, "sam_rad": 0.08462743542856886, "sam_rad_undefined": 0, "sam_deg": 4.848794881072894, "sam_deg_undefined": 0, "ergas": 1.0255352003540952, "ergas_undefined": 0, "cc": 0.8476214016426845, "cc_undefined": 0, "mechanism_diagnostics": {}, "method": "i03_frequency", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "1b5e79272163d221656142915220689f5805d277e4e717cca063ac21c4a94e82", "peak_cuda_MiB": 1275.46240234375}

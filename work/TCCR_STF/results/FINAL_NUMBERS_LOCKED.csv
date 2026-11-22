@@ -1,0 +1,20 @@
+dataset,split,checkpoint_seed,method,RMSE,SSIM,SAM,avgNFE,note
+LGC,val,42,B0_official10,0.02063,,,2,
+LGC,flood_legacy,42,B0_official10,0.02121,,,2,
+LGC,val,42,B1_fixed1,0.02002,,,2,
+LGC,flood_legacy,42,B1_fixed1,0.02011,,,2,
+LGC,val,42,B2_fixed2,0.02029,,,2,
+LGC,flood_legacy,42,B2_fixed2,0.02059,,,2,
+LGC,val,42,B3_projection,0.01862,,,2,
+LGC,flood_legacy,42,B3_projection,0.02005,,,2,
+LGC,val,42,B4_router_only,0.01999,,,2,
+LGC,flood_legacy,42,B4_router_only,0.02014,,,2,
+LGC,val,42,B5_tccr,0.01883,,,2,
+LGC,flood_legacy,42,B5_tccr,0.02007,,,2,
+CIA,test(date-split 8/3/4),42,B1_fixed1,0.025044837556335898,,,2,
+CIA,test(date-split 8/3/4),42,B2_fixed2,0.02540272447679724,,,2,
+CIA,test(date-split 8/3/4),42,B3_projection_indomain,0.024187143492911543,,,1,
+CIA,test(date-split 8/3/4),42,B5_tccr_indomain,0.02455239384878604,,,1.2142857142857142,
+CIA,test(date-split 8/3/4),42,B3_projection_zeroshot_lgc_calib,0.02442789538985207,,,1,
+LGC,val,123,TRAINING_STATUS,,,,,converged CONVERGED_EARLY 57ep best=0.0237@e36
+LGC,val,42,TRAINING_STATUS,,,,,converged CONVERGED_EARLY 46ep best=0.0278@e25

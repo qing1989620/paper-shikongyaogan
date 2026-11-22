@@ -1,0 +1,118 @@
+[
+  {
+    "filename": "LGC/Landsat/2004_107_Apr16/20040416_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_123_May02/20040502_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_187_Jul05/20040705_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_219_Aug06/20040806_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_235_Aug22/20040822_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_299_Oct25/20041025_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_331_Nov26/20041126_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_347_Dec12/20041212_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2004_363_Dec28/20041228_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2005_013_Jan13/20050113_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2005_029_Jan29/20050129_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2005_045_Feb14/20050214_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2005_061_Mar02/20050302_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Landsat/2005_093_Apr03/20050403_TM.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/Mask_inun/LGC_inun_mask",
+    "fileSize": 8704000
+  },
+  {
+    "filename": "LGC/MODIS/2004_107_Apr16/MOD09GA_A2004107.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_123_May02/MOD09GA_A2004123.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_187_Jul05/MOD09GA_A2004187.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_219_Aug06/MOD09GA_A2004219.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_235_Aug22/MOD09GA_A2004235.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_299_Oct25/MOD09GA_A2004299.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_331_Nov26/MOD09GA_A2004331.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_347_Dec12/MOD09GA_A2004347.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2004_363_Dec28/MOD09GA_A2004363.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2005_013_Jan13/MOD09GA_A2005013.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2005_029_Jan29/MOD09GA_A2005029.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2005_045_Feb14/MOD09GA_A2005045.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2005_061_Mar02/MOD09GA_A2005061.sur_refl.int",
+    "fileSize": 104448000
+  },
+  {
+    "filename": "LGC/MODIS/2005_093_Apr03/MOD09GA_A2005093.sur_refl.int",
+    "fileSize": 104448000
+  }
+]

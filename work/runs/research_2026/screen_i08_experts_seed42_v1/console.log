@@ -1,0 +1,81 @@
+START i08_experts seed=42 train=1200 val=120 params=7514313 warmstart=True
+INITIAL val=0.0233375
+  epoch=1 batch=100/1200 loss=0.018767
+  epoch=1 batch=200/1200 loss=0.018569
+  epoch=1 batch=300/1200 loss=0.018376
+  epoch=1 batch=400/1200 loss=0.018315
+  epoch=1 batch=500/1200 loss=0.018297
+  epoch=1 batch=600/1200 loss=0.018186
+  epoch=1 batch=700/1200 loss=0.018164
+  epoch=1 batch=800/1200 loss=0.018059
+  epoch=1 batch=900/1200 loss=0.017937
+  epoch=1 batch=1000/1200 loss=0.017911
+  epoch=1 batch=1100/1200 loss=0.017834
+  epoch=1 batch=1200/1200 loss=0.017795
+EPOCH 1/6 loss=0.017795 val=0.0253960 best=0.0253960 seconds=239.6
+  epoch=2 batch=100/1200 loss=0.017572
+  epoch=2 batch=200/1200 loss=0.017487
+  epoch=2 batch=300/1200 loss=0.017254
+  epoch=2 batch=400/1200 loss=0.017153
+  epoch=2 batch=500/1200 loss=0.017221
+  epoch=2 batch=600/1200 loss=0.017440
+  epoch=2 batch=700/1200 loss=0.017424
+  epoch=2 batch=800/1200 loss=0.017435
+  epoch=2 batch=900/1200 loss=0.017375
+  epoch=2 batch=1000/1200 loss=0.017347
+  epoch=2 batch=1100/1200 loss=0.017325
+  epoch=2 batch=1200/1200 loss=0.017306
+EPOCH 2/6 loss=0.017306 val=0.0258550 best=0.0253960 seconds=242.0
+  epoch=3 batch=100/1200 loss=0.017057
+  epoch=3 batch=200/1200 loss=0.017391
+  epoch=3 batch=300/1200 loss=0.017239
+  epoch=3 batch=400/1200 loss=0.017164
+  epoch=3 batch=500/1200 loss=0.017163
+  epoch=3 batch=600/1200 loss=0.017101
+  epoch=3 batch=700/1200 loss=0.017215
+  epoch=3 batch=800/1200 loss=0.017213
+  epoch=3 batch=900/1200 loss=0.017288
+  epoch=3 batch=1000/1200 loss=0.017205
+  epoch=3 batch=1100/1200 loss=0.017231
+  epoch=3 batch=1200/1200 loss=0.017206
+EPOCH 3/6 loss=0.017206 val=0.0238877 best=0.0238877 seconds=242.5
+  epoch=4 batch=100/1200 loss=0.017293
+  epoch=4 batch=200/1200 loss=0.016980
+  epoch=4 batch=300/1200 loss=0.017019
+  epoch=4 batch=400/1200 loss=0.016980
+  epoch=4 batch=500/1200 loss=0.017045
+  epoch=4 batch=600/1200 loss=0.016947
+  epoch=4 batch=700/1200 loss=0.016873
+  epoch=4 batch=800/1200 loss=0.016939
+  epoch=4 batch=900/1200 loss=0.016987
+  epoch=4 batch=1000/1200 loss=0.016970
+  epoch=4 batch=1100/1200 loss=0.016944
+  epoch=4 batch=1200/1200 loss=0.016916
+EPOCH 4/6 loss=0.016916 val=0.0236607 best=0.0236607 seconds=243.9
+  epoch=5 batch=100/1200 loss=0.016601
+  epoch=5 batch=200/1200 loss=0.016555
+  epoch=5 batch=300/1200 loss=0.016562
+  epoch=5 batch=400/1200 loss=0.016509
+  epoch=5 batch=500/1200 loss=0.016634
+  epoch=5 batch=600/1200 loss=0.016757
+  epoch=5 batch=700/1200 loss=0.016786
+  epoch=5 batch=800/1200 loss=0.016696
+  epoch=5 batch=900/1200 loss=0.016654
+  epoch=5 batch=1000/1200 loss=0.016667
+  epoch=5 batch=1100/1200 loss=0.016670
+  epoch=5 batch=1200/1200 loss=0.016662
+EPOCH 5/6 loss=0.016662 val=0.0240323 best=0.0236607 seconds=242.5
+  epoch=6 batch=100/1200 loss=0.016517
+  epoch=6 batch=200/1200 loss=0.016442
+  epoch=6 batch=300/1200 loss=0.016331
+  epoch=6 batch=400/1200 loss=0.016364
+  epoch=6 batch=500/1200 loss=0.016409
+  epoch=6 batch=600/1200 loss=0.016417
+  epoch=6 batch=700/1200 loss=0.016459
+  epoch=6 batch=800/1200 loss=0.016442
+  epoch=6 batch=900/1200 loss=0.016418
+  epoch=6 batch=1000/1200 loss=0.016456
+  epoch=6 batch=1100/1200 loss=0.016464
+  epoch=6 batch=1200/1200 loss=0.016457
+EPOCH 6/6 loss=0.016457 val=0.0240516 best=0.0236607 seconds=242.7
+COMPLETE {"mean_patch_rmse": 0.023660675275863872, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.02366017336677996, 0.02364680843058905, 0.02367504302858128], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-19T04:33:54.348286+08:00", "mae": 0.016371434011701377, "mae_undefined": 0, "psnr_db": 32.767381212619874, "psnr_db_undefined": 0, "ssim": 0.9409196856879242, "ssim_undefined": 0, "sam_rad": 0.08468469633362721, "sam_rad_undefined": 0, "sam_deg": 4.852075689263836, "sam_deg_undefined": 0, "ergas": 1.0252900318957443, "ergas_undefined": 0, "cc": 0.8476122813602223, "cc_undefined": 0, "mechanism_diagnostics": {"diagnostic_router_entropy": 1.0985911697149278, "diagnostic_router_spatial_std": 0.0017409970459993929}, "method": "i08_experts", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "0cb783e25981e695edadae6f66a65500c87d4730bf04e67ca19f2a23c1de3437", "peak_cuda_MiB": 1354.171875}

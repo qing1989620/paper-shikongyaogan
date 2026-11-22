@@ -1,0 +1,92 @@
+{
+ "Identity": {
+  "LGC-val": -23.15,
+  "LGC-test": -6.42,
+  "CIA-val": 0.6,
+  "CIA-test": -3.0
+ },
+ "OLS": {
+  "LGC-val": -2.05,
+  "LGC-test": -7.6,
+  "CIA-val": -1.08,
+  "CIA-test": -0.9
+ },
+ "TLS": {
+  "LGC-val": 9.9,
+  "LGC-test": 18.16,
+  "CIA-val": 16.09,
+  "CIA-test": 9.12
+ },
+ "Deming": {
+  "LGC-val": -2.55,
+  "LGC-test": 1.29,
+  "CIA-val": 3.04,
+  "CIA-test": 3.99
+ },
+ "Huber": {
+  "LGC-val": -2.17,
+  "LGC-test": -7.62,
+  "CIA-val": -0.97,
+  "CIA-test": -1.35
+ },
+ "Ridge": {
+  "LGC-val": -2.55,
+  "LGC-test": -7.62,
+  "CIA-val": -1.25,
+  "CIA-test": -0.99
+ },
+ "WLS": {
+  "LGC-val": -2.03,
+  "LGC-test": -7.32,
+  "CIA-val": -0.96,
+  "CIA-test": -1.04
+ },
+ "Inv-var": {
+  "LGC-val": -0.89,
+  "LGC-test": -8.77,
+  "CIA-val": -2.36,
+  "CIA-test": -1.7
+ },
+ "Hist match": {
+  "LGC-val": -10.91,
+  "LGC-test": -1.77,
+  "CIA-val": -1.28,
+  "CIA-test": -1.22
+ },
+ "OT affine": {
+  "LGC-val": -11.75,
+  "LGC-test": -2.07,
+  "CIA-val": -1.22,
+  "CIA-test": -1.11
+ },
+ "Gate": {
+  "LGC-val": -3.47,
+  "LGC-test": -6.98,
+  "CIA-val": -4.46,
+  "CIA-test": -3.44
+ },
+ "Haar": {
+  "LGC-val": -1.78,
+  "LGC-test": -8.4,
+  "CIA-val": -0.91,
+  "CIA-test": -1.05
+ },
+ "Guided": {
+  "LGC-val": -1.07,
+  "LGC-test": -6.11,
+  "CIA-val": -0.63,
+  "CIA-test": -0.66
+ },
+ "Cascade": {
+  "LGC-val": -1.98,
+  "LGC-test": -5.2,
+  "CIA-val": -0.57,
+  "CIA-test": -0.29
+ },
+ "Pixel-adaptive": {
+  "LGC-val": -0.92,
+  "LGC-test": -5.25,
+  "CIA-val": -0.56,
+  "CIA-test": -0.52
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "mean_patch_rmse": 0.45934927463531494,
+  "n_predictions": 360,
+  "n_patches": 120,
+  "noise_repeat_rmse": [
+    0.45929582715034484,
+    0.45936547766129177,
+    0.4593865190943082
+  ],
+  "metric_version": "reflectance_v1",
+  "exposure": "legacy_exposed_development_only",
+  "sampler": {
+    "steps": 1,
+    "eta": 0.0
+  },
+  "time_cst": "2026-11-22T16:53:41.883097+08:00"
+}

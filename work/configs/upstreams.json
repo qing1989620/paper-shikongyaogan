@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "STF",
+    "url": "https://github.com/prowDIY/STF.git",
+    "commit": "22a1c99c0bbd06e4ef931733dbcea9780b0ffd5b",
+    "windows_crlf_sha256": {
+      "src/model/stfdiff/model6/bi_pred_resnet.py": "e628ff755eeddc9e72494c800f54544526680ec78b6ca0dd58c798ce90462363"
+    }
+  },
+  {
+    "directory": "STFMamba",
+    "url": "https://github.com/zhaomin0101/STFMamba.git",
+    "commit": "780e3df35c87f377d7c359eb784aca8a8490123f"
+  },
+  {
+    "directory": "SA-STF",
+    "url": "https://github.com/ZZZhangjinsong/SA-STF.git",
+    "commit": "34b139741009da2a407b7fc3f84b901fad29242d"
+  }
+]

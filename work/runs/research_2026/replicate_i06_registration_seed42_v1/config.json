@@ -1,0 +1,32 @@
+{
+  "method": "i06_registration",
+  "dataset": "LGC",
+  "epochs": 40,
+  "phase": "replication",
+  "seed": 42,
+  "lr": 0.0002,
+  "accum": 2,
+  "out": "D:\\qing_zhuomian_\\科研区\\时空融合\\work\\runs\\research_2026\\replicate_i06_registration_seed42_v1",
+  "warmstart": "",
+  "resume": false,
+  "limit": 0,
+  "val_limit": 0,
+  "time_cst": "2026-11-22T06:14:25.289784+08:00",
+  "device": "cuda",
+  "warmstart_metadata": null,
+  "warmstart_sha256": null,
+  "manifest_path": "work\\configs\\screening_2026\\manifest_lgc_frozen.csv",
+  "manifest_sha256": "2738a2a3ec26388d1bb2887db86d41e3b24ce7b3fecb89578938428a79a60e49",
+  "code_sha256": {
+    "work\\tools\\train_research_2026.py": "2abb9e37f219bdea7ea8154789b68d3fc985549a40f190784a3ef5b7b0b6f134",
+    "work\\tools\\research_methods_2026.py": "9a24545e72aea07d864d62cf237b3c1fb3b6ef1df4afdc0825e7402b80a1b024",
+    "work\\tools\\benchmark_metrics.py": "10e3e62a9a9c2cd4b4cd7a8abdc6f75944679ac03226ac9cff71e87efd5e3afd",
+    "work\\repos\\STF\\src\\model\\stfdiff\\model6\\bi_pred_resnet.py": "e628ff755eeddc9e72494c800f54544526680ec78b6ca0dd58c798ce90462363"
+  },
+  "train_patches": 1200,
+  "val_patches": 120,
+  "validation_repeats": 3,
+  "parameters": 7496362,
+  "max_updates_per_epoch": 600,
+  "metric_version": "reflectance_v1"
+}

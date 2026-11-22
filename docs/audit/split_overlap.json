@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "LGC",
+    "target_dates_by_split": {
+      "test": [
+        "2005-01-13"
+      ],
+      "train": [
+        "2004-05-02",
+        "2004-07-05",
+        "2004-08-06",
+        "2004-08-22",
+        "2004-10-25",
+        "2004-11-26"
+      ],
+      "val": [
+        "2005-03-02"
+      ]
+    },
+    "val_target_in_train_fine": [],
+    "test_target_in_train_fine": [],
+    "scope": "current local patches only; not external pretrained weights",
+    "cia_train_available": null
+  },
+  {
+    "dataset": "CIA",
+    "target_dates_by_split": {
+      "test": [
+        "2002-04-02",
+        "2002-04-11",
+        "2002-04-18",
+        "2002-04-27"
+      ],
+      "train": [
+        "2001-10-17",
+        "2001-11-02",
+        "2001-11-09",
+        "2001-11-25",
+        "2001-12-04",
+        "2002-01-05",
+        "2002-01-12"
+      ],
+      "val": [
+        "2002-02-22",
+        "2002-03-10",
+        "2002-03-17"
+      ]
+    },
+    "val_target_in_train_fine": [],
+    "test_target_in_train_fine": [],
+    "scope": "current local patches only; not external pretrained weights",
+    "cia_train_available": true
+  }
+]

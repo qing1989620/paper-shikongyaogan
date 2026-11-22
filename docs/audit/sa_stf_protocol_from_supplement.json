@@ -1,0 +1,161 @@
+{
+  "source_pdf": "references/papers/SA-STF_CVPR2026_supplemental.pdf",
+  "source_sha256": "ba3cae536ffa6ee6a607db1a35219b68223aa7b404a841125ec1f18b12d0957e",
+  "source_table": "Table 3, PDF page 3, visually checked",
+  "LGC_author_train_triples": [
+    [
+      "2004-04-16",
+      "2004-05-02",
+      "2004-07-05"
+    ],
+    [
+      "2004-05-02",
+      "2004-07-05",
+      "2004-08-06"
+    ],
+    [
+      "2004-07-05",
+      "2004-08-06",
+      "2004-08-22"
+    ],
+    [
+      "2004-08-06",
+      "2004-08-22",
+      "2004-10-25"
+    ],
+    [
+      "2004-08-22",
+      "2004-10-25",
+      "2004-11-26"
+    ],
+    [
+      "2004-10-25",
+      "2004-11-26",
+      "2005-03-02"
+    ],
+    [
+      "2004-11-26",
+      "2005-03-02",
+      "2005-04-03"
+    ]
+  ],
+  "LGC_author_test_triple": [
+    "2004-12-28",
+    "2005-01-13",
+    "2005-01-29"
+  ],
+  "LGC_our_val_target_is_author_training_fine": true,
+  "LGC_our_test_target_is_author_training_fine": false,
+  "CIA_author_test_fine_dates": [
+    "2002-04-10",
+    "2002-04-17",
+    "2002-04-26"
+  ],
+  "CIA_matching_our_pair_folder_triple": [
+    "2002-04-11",
+    "2002-04-18",
+    "2002-04-27"
+  ],
+  "CIA_matching_our_group": "test2",
+  "CIA_pair_folder_vs_fine_filename_mapping": [
+    {
+      "pair_folder_date": "2001-10-08",
+      "fine_filename_date": "2001-10-07",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_281_08oct/L71093084_08420011007_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2001-10-17",
+      "fine_filename_date": "2001-10-16",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_290_17oct/L71093084_08420011016_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2001-11-02",
+      "fine_filename_date": "2001-11-01",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_306_02nov/L71093084_08420011101_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2001-11-09",
+      "fine_filename_date": "2001-11-08",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_313_09nov/L71093084_08420011108_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2001-11-25",
+      "fine_filename_date": "2001-11-24",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_329_25nov/L71093084_08420011124_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2001-12-04",
+      "fine_filename_date": "2001-12-03",
+      "path": "work/data/raw_cia/CIA/Landsat/2001_338_04dec/L71093084_08420011203_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-01-05",
+      "fine_filename_date": "2002-01-04",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_005_05jan/L71093084_08420020104_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-01-12",
+      "fine_filename_date": "2002-01-11",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_012_12jan/L71093084_08420020111_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-02-13",
+      "fine_filename_date": "2002-02-12",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_044_13feb/L71093084_08420020212_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-02-22",
+      "fine_filename_date": "2002-02-21",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_053_22feb/L71093084_08420020221_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-03-10",
+      "fine_filename_date": "2002-03-09",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_069_10mar/L72093084_08420020309_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-03-17",
+      "fine_filename_date": "2002-03-16",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_076_17mar/L71093084_08420020316_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-04-02",
+      "fine_filename_date": "2002-04-01",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_092_02apr/L71093084_08420020401_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-04-11",
+      "fine_filename_date": "2002-04-10",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_101_11apr/L71093084_08420020410_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-04-18",
+      "fine_filename_date": "2002-04-17",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_108_18apr/L71093084_08420020417_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-04-27",
+      "fine_filename_date": "2002-04-26",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_117_27apr/L71093084_08420020426_HRF_modtran_surf_ref_agd66.bil"
+    },
+    {
+      "pair_folder_date": "2002-05-04",
+      "fine_filename_date": "2002-05-03",
+      "path": "work/data/raw_cia/CIA/Landsat/2002_124_04may/L71093084_08420020503_HRF_modtran_surf_ref_agd66.bil"
+    }
+  ],
+  "paper_patch_counts": {
+    "LGC_train": 2527,
+    "LGC_test": 361,
+    "CIA_train": 1287,
+    "CIA_test": 117
+  },
+  "our_common_patch_counts": {
+    "LGC_test": 120,
+    "CIA_test2": 42
+  },
+  "spatial_cropping_status": "published_patch_counts_differ_no_exact_ROI_inferred",
+  "author_weight_provenance": "authors_dataset_labeled_release_assumed_documented_training_recipe_binary_has_no_date_metadata",
+  "allowed_next_step": "rerun_author_LGC_weight_on_exact_common_flood_patches_and_label_recipe_differences",
+  "not_allowed": "compare_author_weight_on_our_March02_val_as_clean_holdout_or_mix_published_scores_with_our_patch_scores"
+}

@@ -1,0 +1,6 @@
+{
+  "time_cst": "2026-11-22T00:45:41.290754+08:00",
+  "selection_data": "exposed_LGC_validation_only",
+  "candidates": [],
+  "next": "from-scratch paired 40-epoch runs with seeds 42/123/2026, then external SOTA and CIA; no automatic paper claims"
+}

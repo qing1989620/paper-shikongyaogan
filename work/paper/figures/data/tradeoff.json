@@ -1,0 +1,38 @@
+{
+ "Base": {
+  "val": 0.0,
+  "test": 0.0
+ },
+ "+LF loss": {
+  "val": 5.12,
+  "test": -2.59
+ },
+ "+HF loss": {
+  "val": 3.67,
+  "test": -3.56
+ },
+ "+Band weights": {
+  "val": 4.08,
+  "test": -1.72
+ },
+ "+Delta sup.": {
+  "val": 6.95,
+  "test": 13.47
+ },
+ "Arch full": {
+  "val": 11.73,
+  "test": 8.08
+ },
+ "Arch delta": {
+  "val": 8.3,
+  "test": -4.5
+ },
+ "Arch gate": {
+  "val": 6.84,
+  "test": -1.68
+ },
+ "Arch reinject": {
+  "val": 9.88,
+  "test": 0.02
+ }
+}

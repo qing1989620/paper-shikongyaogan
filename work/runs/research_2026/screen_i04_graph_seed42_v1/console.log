@@ -1,0 +1,81 @@
+START i04_graph seed=42 train=1200 val=120 params=7488972 warmstart=True
+INITIAL val=0.0232817
+  epoch=1 batch=100/1200 loss=0.018774
+  epoch=1 batch=200/1200 loss=0.018572
+  epoch=1 batch=300/1200 loss=0.018378
+  epoch=1 batch=400/1200 loss=0.018318
+  epoch=1 batch=500/1200 loss=0.018299
+  epoch=1 batch=600/1200 loss=0.018189
+  epoch=1 batch=700/1200 loss=0.018167
+  epoch=1 batch=800/1200 loss=0.018061
+  epoch=1 batch=900/1200 loss=0.017939
+  epoch=1 batch=1000/1200 loss=0.017914
+  epoch=1 batch=1100/1200 loss=0.017836
+  epoch=1 batch=1200/1200 loss=0.017798
+EPOCH 1/6 loss=0.017798 val=0.0253996 best=0.0253996 seconds=269.2
+  epoch=2 batch=100/1200 loss=0.017575
+  epoch=2 batch=200/1200 loss=0.017491
+  epoch=2 batch=300/1200 loss=0.017258
+  epoch=2 batch=400/1200 loss=0.017157
+  epoch=2 batch=500/1200 loss=0.017225
+  epoch=2 batch=600/1200 loss=0.017444
+  epoch=2 batch=700/1200 loss=0.017428
+  epoch=2 batch=800/1200 loss=0.017439
+  epoch=2 batch=900/1200 loss=0.017379
+  epoch=2 batch=1000/1200 loss=0.017351
+  epoch=2 batch=1100/1200 loss=0.017329
+  epoch=2 batch=1200/1200 loss=0.017310
+EPOCH 2/6 loss=0.017310 val=0.0258589 best=0.0253996 seconds=270.8
+  epoch=3 batch=100/1200 loss=0.017060
+  epoch=3 batch=200/1200 loss=0.017394
+  epoch=3 batch=300/1200 loss=0.017242
+  epoch=3 batch=400/1200 loss=0.017168
+  epoch=3 batch=500/1200 loss=0.017166
+  epoch=3 batch=600/1200 loss=0.017105
+  epoch=3 batch=700/1200 loss=0.017218
+  epoch=3 batch=800/1200 loss=0.017216
+  epoch=3 batch=900/1200 loss=0.017291
+  epoch=3 batch=1000/1200 loss=0.017208
+  epoch=3 batch=1100/1200 loss=0.017234
+  epoch=3 batch=1200/1200 loss=0.017210
+EPOCH 3/6 loss=0.017210 val=0.0238896 best=0.0238896 seconds=271.2
+  epoch=4 batch=100/1200 loss=0.017297
+  epoch=4 batch=200/1200 loss=0.016983
+  epoch=4 batch=300/1200 loss=0.017022
+  epoch=4 batch=400/1200 loss=0.016983
+  epoch=4 batch=500/1200 loss=0.017048
+  epoch=4 batch=600/1200 loss=0.016951
+  epoch=4 batch=700/1200 loss=0.016877
+  epoch=4 batch=800/1200 loss=0.016943
+  epoch=4 batch=900/1200 loss=0.016990
+  epoch=4 batch=1000/1200 loss=0.016973
+  epoch=4 batch=1100/1200 loss=0.016947
+  epoch=4 batch=1200/1200 loss=0.016919
+EPOCH 4/6 loss=0.016919 val=0.0236609 best=0.0236609 seconds=272.0
+  epoch=5 batch=100/1200 loss=0.016603
+  epoch=5 batch=200/1200 loss=0.016558
+  epoch=5 batch=300/1200 loss=0.016565
+  epoch=5 batch=400/1200 loss=0.016512
+  epoch=5 batch=500/1200 loss=0.016637
+  epoch=5 batch=600/1200 loss=0.016760
+  epoch=5 batch=700/1200 loss=0.016789
+  epoch=5 batch=800/1200 loss=0.016700
+  epoch=5 batch=900/1200 loss=0.016657
+  epoch=5 batch=1000/1200 loss=0.016670
+  epoch=5 batch=1100/1200 loss=0.016673
+  epoch=5 batch=1200/1200 loss=0.016666
+EPOCH 5/6 loss=0.016666 val=0.0240371 best=0.0236609 seconds=271.6
+  epoch=6 batch=100/1200 loss=0.016520
+  epoch=6 batch=200/1200 loss=0.016445
+  epoch=6 batch=300/1200 loss=0.016334
+  epoch=6 batch=400/1200 loss=0.016367
+  epoch=6 batch=500/1200 loss=0.016412
+  epoch=6 batch=600/1200 loss=0.016420
+  epoch=6 batch=700/1200 loss=0.016462
+  epoch=6 batch=800/1200 loss=0.016445
+  epoch=6 batch=900/1200 loss=0.016421
+  epoch=6 batch=1000/1200 loss=0.016459
+  epoch=6 batch=1100/1200 loss=0.016467
+  epoch=6 batch=1200/1200 loss=0.016460
+EPOCH 6/6 loss=0.016460 val=0.0240551 best=0.0236609 seconds=272.0
+COMPLETE {"mean_patch_rmse": 0.023660944355651737, "n_predictions": 360, "n_patches": 120, "noise_repeat_rmse": [0.023660495262671548, 0.02364704412112334, 0.023675292540540106], "metric_version": "reflectance_v1", "exposure": "legacy_exposed_development_only", "sampler": {"steps": 1, "eta": 0.0}, "time_cst": "2026-11-19T03:42:53.395953+08:00", "mae": 0.01637137810569866, "mae_undefined": 0, "psnr_db": 32.76741602980706, "psnr_db_undefined": 0, "ssim": 0.9409055742782505, "ssim_undefined": 0, "sam_rad": 0.08463651870792778, "sam_rad_undefined": 0, "sam_deg": 4.849315314644298, "sam_deg_undefined": 0, "ergas": 1.0251425390066207, "ergas_undefined": 0, "cc": 0.8476247914004186, "cc_undefined": 0, "mechanism_diagnostics": {}, "method": "i04_graph", "seed": 42, "best_epoch": 4, "checkpoint_sha256": "9e2efb76a4dbafa26e0efa8d2551e988c31ea3a59378c016b781ad3a229b4845", "peak_cuda_MiB": 1388.3134765625}

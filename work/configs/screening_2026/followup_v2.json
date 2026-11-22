@@ -1,0 +1,21 @@
+{
+  "protocol_id": "research_2026_all_methods_replication_v2",
+  "scope": "base_and_all_14_prototypes_no_screening_elimination",
+  "minimum_gain_pct": 1.0,
+  "maximum_candidates": 2,
+  "quality_metric_relative_harm_limit_pct": 1.0,
+  "paired_seed_requirement": "positive_RMSE_gain_in_each_of_3_seeds_and_no_large_secondary_harm_in_any_seed",
+  "run_diagnostic_if_no_promotion": true,
+  "diagnostic_candidate_count": 2,
+  "epochs": 40,
+  "seeds": [42, 123, 2026],
+  "learning_rate": 0.0002,
+  "warmstart": null,
+  "evaluate_common_flood_after_replication": true,
+  "external_protocol": "common_flood_patch_v1_author_reported_date_disjoint_different_training_recipes",
+  "data": "same_frozen_LGC_development_manifest",
+  "training_and_selection_test_access": "disabled_until_all_45_replications_and_validation_selection_complete",
+  "external_SOTA_claim": "requires_matched_training_protocol_and_full_evaluation_not_only_common_test_patches",
+  "paper_result_claim": "requires_novelty_ablations_external_data_and_independent_confirmation",
+  "resource_policy": "serial_GPU_45_runs_estimated_110_to_140_GPU_hours_approximately_5_to_6_GiB_new_checkpoints_512_MiB_free_before_each_run"
+}

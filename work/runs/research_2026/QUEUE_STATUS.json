@@ -1,0 +1,102 @@
+{
+  "pid": 32452,
+  "started_cst": "2026-11-21T22:46:53.117897+08:00",
+  "state": "complete",
+  "jobs": [
+    {
+      "method": "base",
+      "run_id": "screen_base_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i01_sensor",
+      "run_id": "screen_i01_sensor_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i02_bridge",
+      "run_id": "screen_i02_bridge_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i03_frequency",
+      "run_id": "screen_i03_frequency_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i07_covariance",
+      "run_id": "screen_i07_covariance_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i05_spectral",
+      "run_id": "screen_i05_spectral_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i04_graph",
+      "run_id": "screen_i04_graph_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i09_time",
+      "run_id": "screen_i09_time_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i08_experts",
+      "run_id": "screen_i08_experts_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i06_registration",
+      "run_id": "screen_i06_registration_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i10_unmixing",
+      "run_id": "screen_i10_unmixing_seed42_v1",
+      "state": "complete_existing"
+    },
+    {
+      "method": "i11_transport",
+      "run_id": "screen_i11_transport_seed42_v1",
+      "state": "complete",
+      "started_cst": "2026-11-21T22:46:53.119042+08:00",
+      "child_pid": 6016,
+      "exit_code": 0,
+      "finished_cst": "2026-11-21T23:15:38.316210+08:00"
+    },
+    {
+      "method": "i12_recurrent",
+      "run_id": "screen_i12_recurrent_seed42_v1",
+      "state": "complete",
+      "started_cst": "2026-11-21T23:15:38.320218+08:00",
+      "child_pid": 38292,
+      "exit_code": 0,
+      "finished_cst": "2026-11-21T23:44:55.373766+08:00"
+    },
+    {
+      "method": "i13_disentangle",
+      "run_id": "screen_i13_disentangle_seed42_v1",
+      "state": "complete",
+      "started_cst": "2026-11-21T23:44:55.384785+08:00",
+      "child_pid": 18160,
+      "exit_code": 0,
+      "finished_cst": "2026-11-22T00:15:10.839793+08:00"
+    },
+    {
+      "method": "i14_masked_ema",
+      "run_id": "screen_i14_masked_ema_seed42_v1",
+      "state": "complete",
+      "started_cst": "2026-11-22T00:15:10.847903+08:00",
+      "child_pid": 37772,
+      "exit_code": 0,
+      "finished_cst": "2026-11-22T00:45:41.276640+08:00"
+    }
+  ],
+  "protocol": "screening_2026_v1",
+  "config_sha256": "a9c2273c1a5bd89d02be4974e3b188bb691f2e41b90867b6303cd955752960c1",
+  "heartbeat_cst": "2026-11-22T00:45:41.275131+08:00",
+  "finished_cst": "2026-11-22T00:45:41.284148+08:00"
+}

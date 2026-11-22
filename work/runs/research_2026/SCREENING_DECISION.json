@@ -1,0 +1,156 @@
+{
+  "mode": "diagnostic_full_budget_no_positive_screen_claim",
+  "reference_rmse": 0.02329166906937543,
+  "all_candidates": [
+    {
+      "method": "i13_disentangle",
+      "gain_pct": -1.458747647322116,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023631435743946997,
+      "passes_screen": false
+    },
+    {
+      "method": "i06_registration",
+      "gain_pct": -1.5693334337745741,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.02365719301936527,
+      "passes_screen": false
+    },
+    {
+      "method": "i12_recurrent",
+      "gain_pct": -1.576184324118585,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023658788706072503,
+      "passes_screen": false
+    },
+    {
+      "method": "i10_unmixing",
+      "gain_pct": -1.5842738122705196,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023660672882882258,
+      "passes_screen": false
+    },
+    {
+      "method": "i08_experts",
+      "gain_pct": -1.5842840862513485,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023660675275863872,
+      "passes_screen": false
+    },
+    {
+      "method": "i04_graph",
+      "gain_pct": -1.5854393481909845,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023660944355651737,
+      "passes_screen": false
+    },
+    {
+      "method": "i11_transport",
+      "gain_pct": -1.614236938821148,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023667651795161268,
+      "passes_screen": false
+    },
+    {
+      "method": "i03_frequency",
+      "gain_pct": -1.6290039480556993,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023671091278083624,
+      "passes_screen": false
+    },
+    {
+      "method": "i01_sensor",
+      "gain_pct": -1.6377462505031146,
+      "harm_metrics": [],
+      "rmse": 0.02367312750623872,
+      "passes_screen": false
+    },
+    {
+      "method": "i09_time",
+      "gain_pct": -1.737149747363428,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.02369628023977081,
+      "passes_screen": false
+    },
+    {
+      "method": "i07_covariance",
+      "gain_pct": -2.033086878108192,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023765208936917286,
+      "passes_screen": false
+    },
+    {
+      "method": "i05_spectral",
+      "gain_pct": -2.1129074899778506,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023783800489683118,
+      "passes_screen": false
+    },
+    {
+      "method": "i02_bridge",
+      "gain_pct": -2.347722487359678,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023838492821798556,
+      "passes_screen": false
+    },
+    {
+      "method": "i14_masked_ema",
+      "gain_pct": -2.569479299533746,
+      "harm_metrics": [
+        "cc"
+      ],
+      "rmse": 0.023890143684628936,
+      "passes_screen": false
+    }
+  ],
+  "selected": [
+    {
+      "method": "i13_disentangle",
+      "gain_pct": -1.458747647322116,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.023631435743946997,
+      "passes_screen": false
+    },
+    {
+      "method": "i06_registration",
+      "gain_pct": -1.5693334337745741,
+      "harm_metrics": [
+        "ergas"
+      ],
+      "rmse": 0.02365719301936527,
+      "passes_screen": false
+    }
+  ],
+  "unresolved_gates": [
+    "external_SOTA_common_protocol",
+    "CIA_in_domain",
+    "fulltext_novelty_comparison",
+    "mechanism_ablation"
+  ]
+}

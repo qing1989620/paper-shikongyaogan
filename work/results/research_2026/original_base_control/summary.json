@@ -1,0 +1,34 @@
+{
+  "mean_patch_rmse": 0.02329166906937543,
+  "n_predictions": 360,
+  "n_patches": 120,
+  "noise_repeat_rmse": [
+    0.023286555022896376,
+    0.02327752608303876,
+    0.02331092529061785
+  ],
+  "metric_version": "reflectance_v1",
+  "exposure": "legacy_exposed_development_only",
+  "sampler": {
+    "steps": 1,
+    "eta": 0.0
+  },
+  "time_cst": "2026-11-22T00:48:21.308423+08:00",
+  "mae": 0.016050586482802838,
+  "mae_undefined": 0,
+  "psnr_db": 32.94801621386425,
+  "psnr_db_undefined": 0,
+  "ssim": 0.9399372758651712,
+  "ssim_undefined": 0,
+  "sam_rad": 0.08620696022809293,
+  "sam_rad_undefined": 0,
+  "sam_deg": 4.93929498572187,
+  "sam_deg_undefined": 0,
+  "ergas": 1.0121314425460124,
+  "ergas_undefined": 0,
+  "cc": 0.8445303387252456,
+  "cc_undefined": 0,
+  "mechanism_diagnostics": {},
+  "source_checkpoint_sha256": "cde34c70a45e8252a695c65de09ed38c41bcaa3c53ab69de4f2546ac87f7a1b3",
+  "role": "unmodified_shared_epoch0_control"
+}

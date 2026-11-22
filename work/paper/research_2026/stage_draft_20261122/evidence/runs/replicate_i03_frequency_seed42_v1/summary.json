@@ -1,0 +1,37 @@
+{
+  "mean_patch_rmse": 0.02534977923820002,
+  "n_predictions": 360,
+  "n_patches": 120,
+  "noise_repeat_rmse": [
+    0.025347603890413104,
+    0.02533151147843684,
+    0.025370221136487577
+  ],
+  "metric_version": "reflectance_v1",
+  "exposure": "legacy_exposed_development_only",
+  "sampler": {
+    "steps": 1,
+    "eta": 0.0
+  },
+  "time_cst": "2026-11-22T16:53:08.776107+08:00",
+  "mae": 0.01741895864651236,
+  "mae_undefined": 0,
+  "psnr_db": 32.16028547583748,
+  "psnr_db_undefined": 0,
+  "ssim": 0.9386491269650964,
+  "ssim_undefined": 0,
+  "sam_rad": 0.09060808416002551,
+  "sam_rad_undefined": 0,
+  "sam_deg": 5.191460812135628,
+  "sam_deg_undefined": 0,
+  "ergas": 1.083221054184065,
+  "ergas_undefined": 0,
+  "cc": 0.8241477935334868,
+  "cc_undefined": 0,
+  "mechanism_diagnostics": {},
+  "method": "i03_frequency",
+  "seed": 42,
+  "best_epoch": 38,
+  "checkpoint_sha256": "3d848e87f356896f6bf9fa2876ef0f00d38948118e3cf17ecc465fe495261e21",
+  "peak_cuda_MiB": 1275.46240234375
+}

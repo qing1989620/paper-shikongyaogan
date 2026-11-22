@@ -1,0 +1,142 @@
+[
+ {
+  "file": "CIA/Landsat/2001_281_08oct/L71093084_08420011007_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2001_290_17oct/L71093084_08420011016_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2001_306_02nov/L71093084_08420011101_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2001_313_09nov/L71093084_08420011108_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2001_329_25nov/L71093084_08420011124_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2001_338_04dec/L71093084_08420011203_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_005_05jan/L71093084_08420020104_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_012_12jan/L71093084_08420020111_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_044_13feb/L71093084_08420020212_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_053_22feb/L71093084_08420020221_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_069_10mar/L72093084_08420020309_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_076_17mar/L71093084_08420020316_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_092_02apr/L71093084_08420020401_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_101_11apr/L71093084_08420020410_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_108_18apr/L71093084_08420020417_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_117_27apr/L71093084_08420020426_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Landsat/2002_124_04may/L71093084_08420020503_HRF_modtran_surf_ref_agd66.bil",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/Mask_irrig/cia_irrig_mask",
+  "size": 3508800
+ },
+ {
+  "file": "CIA/MODIS/2001_281_08oct/MOD09GA_A2001281.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2001_290_17oct/MOD09GA_A2001290.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2001_306_02nov/MOD09GA_A2001306.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2001_313_09nov/MOD09GA_A2001313.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2001_329_25nov/MOD09GA_A2001329.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2001_338_04dec/MOD09GA_A2001338.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_005_05jan/MOD09GA_A2002005.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_012_12jan/MOD09GA_A2002012.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_044_13feb/MOD09GA_A2002044.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_053_22feb/MOD09GA_A2002053.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_069_10mar/MOD09GA_A2002069.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_076_17mar/MOD09GA_A2002076.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_092_02apr/MOD09GA_A2002092.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_101_11apr/MOD09GA_A2002101.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_108_18apr/MOD09GA_A2002108.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_117_27apr/MOD09GA_A2002117.sur_refl.int",
+  "size": 42105600
+ },
+ {
+  "file": "CIA/MODIS/2002_124_04may/MOD09GA_A2002124.sur_refl.int",
+  "size": 42105600
+ }
+]

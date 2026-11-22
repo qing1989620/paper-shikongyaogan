@@ -1,0 +1,106 @@
+{
+  "dataset": "LGC",
+  "protocol_id": "legacy_v0_observed",
+  "status": "GENERATOR_V2_TEN_GROUPS_30_REPRESENTATIVE_PATCHES_VERIFIED",
+  "model_keys": [
+    "f0",
+    "f1",
+    "f3",
+    "c0",
+    "c1",
+    "c3"
+  ],
+  "shape": [
+    2720,
+    3200,
+    6
+  ],
+  "layout": "BSQ",
+  "patch_size": 256,
+  "patch_stride": 256,
+  "normalization": "clip_DN_0_10000_then_DN_over_10000_times_2_minus_1",
+  "train_triples": [
+    {
+      "group": "train0",
+      "dates": [
+        "2004-04-16",
+        "2004-05-02",
+        "2004-07-05"
+      ]
+    },
+    {
+      "group": "train1",
+      "dates": [
+        "2004-05-02",
+        "2004-07-05",
+        "2004-08-22"
+      ]
+    },
+    {
+      "group": "train2",
+      "dates": [
+        "2004-07-05",
+        "2004-08-06",
+        "2004-08-22"
+      ]
+    },
+    {
+      "group": "train3",
+      "dates": [
+        "2004-08-22",
+        "2004-10-25",
+        "2004-11-26"
+      ]
+    },
+    {
+      "group": "train4",
+      "dates": [
+        "2004-10-25",
+        "2004-11-26",
+        "2004-12-12"
+      ]
+    },
+    {
+      "group": "train5",
+      "dates": [
+        "2004-05-02",
+        "2004-07-05",
+        "2004-08-06"
+      ]
+    },
+    {
+      "group": "train6",
+      "dates": [
+        "2004-07-05",
+        "2004-08-22",
+        "2004-10-25"
+      ]
+    },
+    {
+      "group": "train7",
+      "dates": [
+        "2004-08-06",
+        "2004-08-22",
+        "2004-10-25"
+      ]
+    },
+    {
+      "group": "train8",
+      "dates": [
+        "2004-08-06",
+        "2004-10-25",
+        "2004-11-26"
+      ]
+    },
+    {
+      "group": "train9",
+      "dates": [
+        "2004-08-22",
+        "2004-11-26",
+        "2004-12-12"
+      ]
+    }
+  ],
+  "evidence": "docs/audit/dataset_groups.json",
+  "generator": "work/tools/prepare_dataset_v2.py"
+}

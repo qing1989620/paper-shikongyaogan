@@ -1,0 +1,156 @@
+{
+  "time_cst": "2026-11-19T00:43:06.170021+08:00",
+  "device": "cuda",
+  "all_passed": true,
+  "scope": "full 256x256 real training patch, two updates per candidate; not scientific performance evaluation",
+  "methods": [
+    {
+      "method": "base",
+      "passed": true,
+      "parameters": 7488966,
+      "seconds_two_updates": 1.187999999965541,
+      "loss": 0.019141901284456253,
+      "peak_MiB": 1153.02001953125,
+      "mechanism_stats": {},
+      "base_max_abs_diff": 0.0,
+      "official_ddim10_max_abs_diff": 0.0
+    },
+    {
+      "method": "i01_sensor",
+      "passed": true,
+      "parameters": 7489153,
+      "seconds_two_updates": 0.3279999999795109,
+      "loss": 0.021416252478957176,
+      "peak_MiB": 1167.03466796875,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i02_bridge",
+      "passed": true,
+      "parameters": 7498189,
+      "seconds_two_updates": 0.26500000001396984,
+      "loss": 0.011064157821238041,
+      "peak_MiB": 1196.16943359375,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i03_frequency",
+      "passed": true,
+      "parameters": 7508681,
+      "seconds_two_updates": 0.29599999997299165,
+      "loss": 0.018242502585053444,
+      "peak_MiB": 1273.33837890625,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i04_graph",
+      "passed": true,
+      "parameters": 7488972,
+      "seconds_two_updates": 0.35900000005494803,
+      "loss": 0.018927739933133125,
+      "peak_MiB": 1387.314453125,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i05_spectral",
+      "passed": true,
+      "parameters": 7492907,
+      "seconds_two_updates": 0.2660000000614673,
+      "loss": 0.017862806096673012,
+      "peak_MiB": 1163.0869140625,
+      "mechanism_stats": {
+        "spectral_mix_gain": 0.11920396238565445
+      }
+    },
+    {
+      "method": "i06_registration",
+      "passed": true,
+      "parameters": 7496362,
+      "seconds_two_updates": 0.29599999997299165,
+      "loss": 0.020721830427646637,
+      "peak_MiB": 1203.1337890625,
+      "mechanism_stats": {
+        "flow_abs_px": 8.723478822503239e-05
+      }
+    },
+    {
+      "method": "i07_covariance",
+      "passed": true,
+      "parameters": 7488966,
+      "seconds_two_updates": 0.28100000007543713,
+      "loss": 0.019063077867031097,
+      "peak_MiB": 1153.0205078125,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i08_experts",
+      "passed": true,
+      "parameters": 7514313,
+      "seconds_two_updates": 0.2970000000204891,
+      "loss": 0.018947742879390717,
+      "peak_MiB": 1351.9228515625,
+      "mechanism_stats": {
+        "router_entropy": 1.0952153205871582,
+        "router_spatial_std": 0.0007187242154031992
+      }
+    },
+    {
+      "method": "i09_time",
+      "passed": true,
+      "parameters": 7505190,
+      "seconds_two_updates": 0.28200000000651926,
+      "loss": 0.018811017274856567,
+      "peak_MiB": 1221.5283203125,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i10_unmixing",
+      "passed": true,
+      "parameters": 7491934,
+      "seconds_two_updates": 0.28100000007543713,
+      "loss": 0.050263043493032455,
+      "peak_MiB": 1360.201171875,
+      "mechanism_stats": {
+        "abundance_entropy": 2.0743114948272705
+      }
+    },
+    {
+      "method": "i11_transport",
+      "passed": true,
+      "parameters": 7490022,
+      "seconds_two_updates": 0.3440000000409782,
+      "loss": 0.01950835809111595,
+      "peak_MiB": 1202.43017578125,
+      "mechanism_stats": {
+        "transport_row_error": 1.7817365005612373e-05
+      }
+    },
+    {
+      "method": "i12_recurrent",
+      "passed": true,
+      "parameters": 7506652,
+      "seconds_two_updates": 0.31299999996554106,
+      "loss": 0.01892876997590065,
+      "peak_MiB": 1286.798828125,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i13_disentangle",
+      "passed": true,
+      "parameters": 7494882,
+      "seconds_two_updates": 0.31299999996554106,
+      "loss": 0.02096221223473549,
+      "peak_MiB": 1401.62939453125,
+      "mechanism_stats": {}
+    },
+    {
+      "method": "i14_masked_ema",
+      "passed": true,
+      "parameters": 7500070,
+      "seconds_two_updates": 0.28100000007543713,
+      "loss": 0.01927243173122406,
+      "peak_MiB": 1209.94580078125,
+      "mechanism_stats": {}
+    }
+  ]
+}

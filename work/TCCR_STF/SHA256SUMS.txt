@@ -1,0 +1,3 @@
+34e517e5aaf5ee1dca05c1f4701b5b12057ce9913f032609cfaa378548d69b7f  checkpoints/tccr_stfdiff_lgc_bsq_best.pth  (checkpoint, 30.0MB)
+6dc310611ea3a07d475656e3a23cb63a438604e21199e4d6b80b8c0f39119d09  calibration/lgc.json  (calibration, 0.0MB)
+888db3e9586ca3f487ad4267f2d9e8e53042bf96b08f916afbd11fd8ae0422fc  results/FINAL_NUMBERS_LOCKED.csv  (numbers, 0.0MB)
