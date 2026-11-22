@@ -8,6 +8,7 @@
 | 队列、暂停和复跑 | [scripts](scripts/) |
 | 创新机制和比较口径 | [创新计划](docs/INNOVATION_PROGRAM_2026.md)、[基准协议](docs/BENCHMARK_PROTOCOL.md) |
 | 2026-11-22 阶段稿 | [中英文稿与复算源码](work/paper/research_2026/stage_draft_20261122/README.md) |
+| 已完成组的阶段进度 | [Seed 42 结果表](docs/SEED42_PROGRESS.md) |
 | 当前实验归档 | [备份状态](work/runs/research_2026/BACKUP_STATE.json)、[检查点下载](https://github.com/qing1989620/paper-shikongyaogan/releases/tag/backup-20261123-seed42) |
 | 在另一台 Windows 电脑恢复 | [恢复说明](docs/RESTORE_BACKUP.md) |
 
