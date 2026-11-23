@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "work/tools"))
-from prepare_dataset_v2 import files_by_date, np, read_tile
+from prepare_dataset_v2 import np, read_tile
 
 SOURCES = {"LGC": ("raw", (2720, 3200)), "CIA": ("raw_cia", (2040, 1720))}
 
@@ -20,17 +20,45 @@ def read_rows(path: Path) -> list[dict]:
         return list(csv.DictReader(stream))
 
 
-def verify_raw(dataset: str) -> dict:
-    for entry in read_rows(ROOT / "docs/audit/raw_file_integrity.csv"):
-        if entry["dataset"] != dataset:
-            continue
-        raw = ROOT / entry["path"]
+def split_rows(dataset: str, splits: list[str] | None) -> list[dict]:
+    return [
+        row for row in read_rows(ROOT / "docs/audit/dataset_manifest.csv")
+        if row["dataset"] == dataset and (splits is None or row["split"] in splits)
+    ]
+
+
+def source_rows(dataset: str, patches: list[dict]) -> list[dict]:
+    dates = {p[key] for p in patches for key in ("prev_date", "target_date", "next_date")}
+    entries = [
+        entry for entry in read_rows(ROOT / "docs/audit/raw_file_integrity.csv")
+        if entry["dataset"] == dataset and entry["date"] in dates
+    ]
+    expected = {(sensor, date) for sensor in ("f", "c") for date in dates}
+    keys = {(entry["sensor"], entry["date"]) for entry in entries}
+    if not expected or len(entries) != len(expected) or keys != expected:
+        raise ValueError(f"Missing or duplicated source manifest records for {dataset}")
+    return entries
+
+
+def source_path(dataset: str, entry: dict) -> Path:
+    raw = ROOT / entry["path"]
+    folder, _ = SOURCES[dataset]
+    source_dir = ROOT / "work/data" / folder / dataset
+    if not raw.resolve().is_relative_to(source_dir.resolve()):
+        raise ValueError(f"Unexpected official image path: {entry['path']}")
+    return raw
+
+
+def verify_raw(dataset: str, patches: list[dict]) -> dict:
+    mapping = {}
+    for entry in source_rows(dataset, patches):
+        raw = source_path(dataset, entry)
         with raw.open("rb") as stream:
             digest = hashlib.file_digest(stream, "sha256").hexdigest()
         if digest != entry["sha256"]:
             raise ValueError(f"Official source file differs from the frozen input: {entry['path']}")
-    source, _ = SOURCES[dataset]
-    return files_by_date(ROOT / "work/data" / source / dataset)
+        mapping[entry["sensor"], entry["date"]] = raw
+    return mapping
 
 
 def restore_patch(row: dict, mapping: dict) -> None:
@@ -69,12 +97,8 @@ def main() -> None:
     parser.add_argument("--split", action="append", choices=("train", "val", "test"))
     parser.add_argument("--generate", action="store_true")
     args = parser.parse_args()
-    rows = read_rows(ROOT / "docs/audit/dataset_manifest.csv")
-    chosen = [
-        row for row in rows
-        if row["dataset"] == args.dataset and (args.split is None or row["split"] in args.split)
-    ]
-    mapping = verify_raw(args.dataset) if args.generate else {}
+    chosen = split_rows(args.dataset, args.split)
+    mapping = verify_raw(args.dataset, chosen) if args.generate else {}
     for row in chosen:
         restore_patch(row, mapping)
     print(f"{args.dataset}: {len(chosen)} patches match their recorded SHA-256.")
