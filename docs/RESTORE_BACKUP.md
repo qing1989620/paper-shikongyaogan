@@ -32,7 +32,7 @@ $researchPython = '.\work\envs\research_v1\Scripts\python.exe'
 
 ## 恢复检查点与接续实验
 
-从对应 GitHub Release 下载检查点 ZIP。用 Get-FileHash 核对 ZIP 的 SHA-256，核对值存于 [备份状态](../work/runs/research_2026/BACKUP_STATE.json)。将 ZIP 解压到克隆根目录，保留其 work/runs/research_2026 相对路径。完成组的最佳模型与摘要标记配对，进行中实验另有包含优化器的 last saved epoch。首次快照的 I04 从第 10 轮接续。
+从对应 GitHub Release 下载检查点 ZIP。用 Get-FileHash 核对 ZIP 的 SHA-256，核对值存于 [备份状态](../work/runs/research_2026/BACKUP_STATE.json)。将 ZIP 解压到克隆根目录，保留其 work/runs/research_2026 相对路径。完成组的最佳模型与摘要标记配对，进行中实验另有包含优化器的 last saved epoch。当前完成快照含 15 个最佳权重及 I14 的第 40 轮续训状态。如需恢复早期进度，请检出该 Release 对应的源码标签再解包。首次快照的 I04 从第 10 轮接续。
 
 ```powershell
 & '.\scripts\start_research_2026.ps1' -Resume -StopAfterSeed 42 -HealthCheckHours 2

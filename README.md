@@ -9,12 +9,12 @@
 | 创新机制和比较口径 | [创新计划](docs/INNOVATION_PROGRAM_2026.md)、[基准协议](docs/BENCHMARK_PROTOCOL.md) |
 | 2026-11-22 阶段稿 | [中英文稿与复算源码](work/paper/research_2026/stage_draft_20261122/README.md) |
 | 已完成组的阶段进度 | [Seed 42 结果表](docs/SEED42_PROGRESS.md) |
-| 当前实验归档 | [备份状态](work/runs/research_2026/BACKUP_STATE.json)、[检查点下载](https://github.com/qing1989620/paper-shikongyaogan/releases/tag/backup-20261123-seed42) |
+| 当前实验归档 | [备份状态](work/runs/research_2026/BACKUP_STATE.json)、[检查点下载](https://github.com/qing1989620/paper-shikongyaogan/releases/tag/seed42-complete-20261123) |
 | 在另一台 Windows 电脑恢复 | [恢复说明](docs/RESTORE_BACKUP.md) |
 
 ## 备份进度
 
-2026 年 11 月 23 日的首次快照已保存 seed 42 的 8 组完整结果、对应最佳权重，以及进行中的 I04 第 9 轮续训检查点。结果基于开发验证集，快照内的进度以抓取时刻为准。本机队列以 seed 42 的 15 组全部完成为暂停边界。
+Seed 42 的 15 组已全部完成，训练于 2026-11-23T22:35:18+08:00（北京时间）暂停。这里的分数来自同一开发验证划分。首次的进行中快照作为历史备份保留。 [首次快照](https://github.com/qing1989620/paper-shikongyaogan/releases/tag/backup-20261123-seed42)
 
 ## 数据来源
 
