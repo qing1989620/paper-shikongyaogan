@@ -4,7 +4,7 @@
 
 | 内容 | 入口 |
 |---|---|
-| seed 123、I10 小实验、后续消融与 SOTA | [I10 后续实验计划](docs/I10_EXPERIMENT_PLAN.md) |
+| 强基线选型、失效诊断、I10 移植与消融 | [强基线实验计划](docs/I10_EXPERIMENT_PLAN.md) |
 | 数据字段、官方取数和协作运行 | [数据集与小实验手册](docs/DATASET_MANUAL.md) |
 | 训练、评测和数据准备 | [work/tools](work/tools/) |
 | 队列、暂停和复跑 | [scripts](scripts/) |
