@@ -1,0 +1,22 @@
+{
+  "state": "paused",
+  "pid": null,
+  "stage": "replication_and_flood",
+  "controller_pid": null,
+  "stage_state": "paused",
+  "run_id": "replicate_i14_masked_ema_seed123_v1",
+  "checked_cst": "2026-11-25T19:15:14+08:00",
+  "next_hourly_check_cst": null,
+  "next_health_check_cst": null,
+  "health_check_interval_seconds": 7200,
+  "stop_after_seed": 123,
+  "screening_completed": 15,
+  "replication_completed": 30,
+  "disk_free_gib": 30.12,
+  "system_awake_requested": false,
+  "attempt": 1,
+  "progress_log": "work/runs/research_2026/replicate_i14_masked_ema_seed123_v1/console.log",
+  "progress_age_seconds": 107,
+  "last_progress": "EPOCH 40/40 loss=0.020173 val=0.0248501 best=0.0248138 seconds=281.8",
+  "checkpoint_cst": "2026-11-25T19:12:38+08:00"
+}

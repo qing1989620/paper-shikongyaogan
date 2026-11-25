@@ -4,6 +4,7 @@
 
 | 内容 | 入口 |
 |---|---|
+| 2026-11-25 中英文定稿和 45 组记录 | [阶段定稿与实验归档](docs/STAGE_FINAL_20261125.md) |
 | 强基线选型、失效诊断、I10 移植与消融 | [强基线实验计划](docs/I10_EXPERIMENT_PLAN.md) |
 | 数据字段、官方取数和协作运行 | [数据集与小实验手册](docs/DATASET_MANUAL.md) |
 | 训练、评测和数据准备 | [work/tools](work/tools/) |
@@ -15,6 +16,8 @@
 | 在另一台 Windows 电脑恢复 | [恢复说明](docs/RESTORE_BACKUP.md) |
 
 ## 备份进度
+
+两个种子各完成 15 组复验，已在 2026-11-25 19:15（北京时间）暂停。最新稿件、配置、逐块记录、检查点与校验码见 [阶段归档](docs/STAGE_FINAL_20261125.md)。
 
 Seed 42 的 15 组已全部完成，训练于 2026-11-23T22:35:18+08:00（北京时间）暂停。这里的分数来自同一开发验证划分。首次的进行中快照作为历史备份保留。 [首次快照](https://github.com/qing1989620/paper-shikongyaogan/releases/tag/backup-20261123-seed42)
 

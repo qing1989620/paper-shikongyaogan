@@ -1,0 +1,63 @@
+{
+  "scope": "fixed-checkpoint interventions on exposed LGC development validation",
+  "training": false,
+  "checkpoint_seed": 42,
+  "checkpoint_epoch": 32,
+  "n_patches": 2,
+  "noise_repeats": 1,
+  "sampler_steps": 1,
+  "pytorch": "2.5.1+cu121",
+  "device": "cuda",
+  "manifest_sha256": "2738a2a3ec26388d1bb2887db86d41e3b24ce7b3fecb89578938428a79a60e49",
+  "checkpoint_sha256": {
+    "base": "27f34bc6103417a0d3ef19911dbb1d1116b67ebc3b50f288539ca2c7e05c7e8a",
+    "i10_unmixing": "d118d2ad159b1852bf13da61e5e7f7f7dc720730ffa26e99cb7e90bb16d1861a"
+  },
+  "results": [
+    {
+      "mode": "base",
+      "rmse": 0.027381762862205505,
+      "sam_rad": 0.09355550866679309,
+      "ssim": 0.9374289867800012,
+      "ergas": 1.10189751055215,
+      "cc": 0.8062383240851739,
+      "rmse_minus_i10_full": -0.0006738109514117241
+    },
+    {
+      "mode": "i10_full",
+      "rmse": 0.02805557381361723,
+      "sam_rad": 0.09966496297660546,
+      "ssim": 0.9328180874169973,
+      "ergas": 1.1352239747286048,
+      "cc": 0.7902583058788599,
+      "rmse_minus_i10_full": 0.0
+    },
+    {
+      "mode": "i10_no_coarse_delta",
+      "rmse": 0.02805557381361723,
+      "sam_rad": 0.09966496095161378,
+      "ssim": 0.9328180877428682,
+      "ergas": 1.1352239802920674,
+      "cc": 0.7902583046479205,
+      "rmse_minus_i10_full": 0.0
+    },
+    {
+      "mode": "i10_shuffle_coarse_delta",
+      "rmse": 0.02805557381361723,
+      "sam_rad": 0.09966496095161378,
+      "ssim": 0.9328180877428682,
+      "ergas": 1.1352239802920674,
+      "cc": 0.7902583046479205,
+      "rmse_minus_i10_full": 0.0
+    },
+    {
+      "mode": "i10_no_injection",
+      "rmse": 0.02824845351278782,
+      "sam_rad": 0.10083154454553753,
+      "ssim": 0.9330125671025187,
+      "ergas": 1.1423924660995086,
+      "cc": 0.7952075546380224,
+      "rmse_minus_i10_full": 0.00019287969917058945
+    }
+  ]
+}

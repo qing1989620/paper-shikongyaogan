@@ -1,0 +1,64 @@
+\usepackage[left=16.8mm,right=16.8mm,top=20.5mm,bottom=19mm]{geometry}
+\usepackage{fontspec,amsmath,amssymb,graphicx,booktabs,caption,xcolor}
+\usepackage{fancyhdr,url,hyperref,placeins,balance}
+\usepackage[sort&compress,numbers]{natbib}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\ifzh
+  \usepackage[UTF8,fontset=none,heading=true]{ctex}
+  \setCJKmainfont{SimSun}[AutoFakeBold=2,ItalicFont=KaiTi]
+  \setCJKsansfont{Microsoft YaHei}
+  \ctexset{section={format=\large\bfseries\raggedright},subsection={format=\normalsize\bfseries\raggedright}}
+  \renewcommand{\refname}{参考文献}
+  \newcommand{\runningtitle}{遥感时空融合}
+  \newcommand{\runningstage}{阶段定稿}
+\else
+  \newcommand{\runningtitle}{Remote sensing spatiotemporal fusion}
+  \newcommand{\runningstage}{Stage manuscript}
+\fi
+\graphicspath{{figures/}}
+\definecolor{ink}{HTML}{263C42}
+\definecolor{muted}{HTML}{60747E}
+\setlength{\columnsep}{6.8mm}
+\setlength{\headheight}{15pt}
+\setlength{\parindent}{1em}
+\setlength{\emergencystretch}{1.5em}
+\linespread{1.08}
+\raggedbottom
+\setlength{\bibsep}{3pt}
+\renewcommand{\bibfont}{\small}
+\makeatletter
+\renewcommand{\@maketitle}{%
+  \vspace*{-.6em}%
+  \begin{center}
+    {\Large \@title\par}
+    \vspace{.9em}{\normalsize \@author\par}
+    \vspace{.5em}{\small \@date\par}
+  \end{center}
+  \vspace{.5em}%
+}
+\makeatother
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\textcolor{muted}{\runningtitle}}
+\fancyhead[R]{\small\sffamily\textcolor{muted}{\runningstage}}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{.35pt}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,labelsep=space,skip=5pt}
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{3}
+\renewcommand{\topfraction}{.92}
+\renewcommand{\dbltopfraction}{.93}
+\renewcommand{\textfraction}{.07}
+\renewcommand{\dblfloatpagefraction}{.70}
+\setlength{\textfloatsep}{10pt plus 3pt minus 2pt}
+\setlength{\dbltextfloatsep}{9pt plus 3pt minus 2pt}
+\hypersetup{hidelinks}
+\input{values.tex}
+\input{primary_rows.tex}
+\input{secondary_rows.tex}
+\newcommand{\obs}{\mathcal O}
+\newcommand{\target}{F_t^\star}
+\newcommand{\reflectance}{\mathcal R}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\avg}[1]{\left\langle #1 \right\rangle}

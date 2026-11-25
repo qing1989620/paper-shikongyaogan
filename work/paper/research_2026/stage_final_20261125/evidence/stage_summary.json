@@ -1,0 +1,47 @@
+{
+  "n_screening": 15,
+  "n_replication": 30,
+  "screening_reference_rmse": 0.02329166906937543,
+  "screening_positive": 0,
+  "best_both_methods": [
+    "i01_sensor",
+    "i10_unmixing"
+  ],
+  "epoch40_both_methods": [
+    "i03_frequency",
+    "i10_unmixing",
+    "i12_recurrent",
+    "i14_masked_ema"
+  ],
+  "all_four_methods": [
+    "i10_unmixing"
+  ],
+  "i10_pair_intervals": [
+    {
+      "seed": 42,
+      "method": "i10_unmixing",
+      "mean_gain": 0.0008467281048394911,
+      "lo95": 0.0003418702068421849,
+      "hi95": 0.0013577999347968018,
+      "patches_improved": 64,
+      "n_patches": 120,
+      "n_blocks": 30,
+      "bootstrap_draws": 10000
+    },
+    {
+      "seed": 123,
+      "method": "i10_unmixing",
+      "mean_gain": 0.0003050727038217582,
+      "lo95": -0.0001172774097703411,
+      "hi95": 0.000697657193099036,
+      "patches_improved": 71,
+      "n_patches": 120,
+      "n_blocks": 30,
+      "bootstrap_draws": 10000
+    }
+  ],
+  "i10_entropy_median_nat": {
+    "42": 0.00010374124394729733,
+    "123": 0.00010374124394729733
+  }
+}
